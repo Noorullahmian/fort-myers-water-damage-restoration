@@ -1,0 +1,194 @@
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+export const metadata = {
+  title: "Came Back to Water Damage? Fort Myers Vacant Homes",
+  description: "Returned to your Fort Myers home and found leaks, wet floors or musty smell? What to do first, insurance tips for vacant homes, drying and costs.",
+  icons: {
+    icon: [{ url: "../assets/favicon-48.png", type: "image/png", sizes: "48x48" }],
+    apple: [{ url: "../assets/apple-touch-icon.png", sizes: "180x180" }],
+    shortcut: [{ url: "../assets/favicon.ico" }],
+  },
+  openGraph: {
+    type: "website",
+    title: "Came Back to Water Damage? Fort Myers Vacant Homes",
+    description: "Returned to your Fort Myers home and found leaks, wet floors or musty smell? What to do first, insurance tips for vacant homes, drying and costs.",
+    url: "https://fortmyerswaterdamagerestoration.us/vacant-home/",
+    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-vacant-home-empty-room.jpg" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Came Back to Water Damage? Fort Myers Vacant Homes",
+    description: "Returned to your Fort Myers home and found leaks, wet floors or musty smell? What to do first, insurance tips for vacant homes, drying and costs.",
+    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-vacant-home-empty-room.jpg"],
+  },
+  alternates: { canonical: "https://fortmyerswaterdamagerestoration.us/vacant-home/" },
+};
+
+export const viewport = { width: 'device-width', initialScale: 1, themeColor: "#0B5E8C" };
+
+export default function Page() {
+  return (
+    <>
+      <Header current={null} />
+
+<main id="main">
+<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-vacant-home-empty-room.jpg" alt="Empty room in a vacant home" loading="eager" decoding="async" /><div className="container banner-inner">
+<nav className="breadcrumb" aria-label="Breadcrumb"><a href="https://fortmyerswaterdamagerestoration.us/">Home</a> &raquo; Services &raquo; Water Damage Found After Returning to Your Fort Myers Home</nav>
+<h1>Water Damage Found After Returning to Your Fort Myers Home</h1>
+<p className="hero-intro">Back for the season to a musty smell, a wet floor or a ceiling stain that wasn't there in spring? In an empty Southwest Florida home, a failed AC or a small leak can run for weeks. Before you start cleaning, photograph everything and note the date you found it, because that protects your claim.</p>
+<p className="hero-call"><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
+</div></section>
+
+
+
+<section className="section section-gray"><div className="container">
+<h2>Snowbird and Vacant Home Water Damage Help in Lee County</h2>
+<p>Shut off the main water, photograph everything before you clean, and note the date you found the damage.</p>
+<p>In empty Southwest Florida homes, the usual culprits are a failed AC, a <a href="https://fortmyerswaterdamagerestoration.us/water-heater-leak/">water heater</a> or supply line leak, and roof leaks from summer storms.</p>
+<p>Check your policy's vacancy or unoccupancy rules, and gather any home watch reports; they help show when the damage happened.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>Found Water Damage in Your Fort Myers Home After Time Away? Do This First</h2>
+<ul>
+<li>Shut off the main water if you find active water or don't know the source. The valve is usually near the meter or where the line enters the house.</li>
+<li>Check for safety. If water is near outlets or the breaker panel, or the ceiling sags, stay out of that area and cut power at the breaker if it's safe to reach.</li>
+<li>Photograph and video everything before touching it: wet floors, stains, mold, the water heater, under sinks, the AC closet and the thermostat reading.</li>
+<li>Write down the date and time you found it, and when you last were in the house or when it was last checked.</li>
+<li>Open nothing up yet. Don't pull baseboards or tear out drywall before photos, because the adjuster may want to see it as found.</li>
+<li>Call your insurer to report the loss, and get drying started. Waiting makes the damage, and the claim, worse.</li>
+</ul>
+<p>Every first step in one list: <a href="https://fortmyerswaterdamagerestoration.us/first-hour-checklist/">first-hour water damage checklist</a>.</p>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>What usually fails while a Fort Myers home sits empty</h2>
+<p>Southwest Florida's summer heat, humidity and storms are hard on a closed-up house. These are the failures found most often when owners come back:</p>
+<ul>
+<li>AC failure or power loss. If the AC stops, from a breakdown or a storm power outage, indoor humidity climbs and mold can start growing on walls, furniture and closets within days.</li>
+<li>AC condensate overflow. The AC keeps running but the drain line clogs, and water spills into the closet, ceiling or floor for weeks. See <a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC leak water damage</a>.</li>
+<li>Water heater leaks. Tanks fail at the bottom and leak slowly, or burst all at once in a garage or closet.</li>
+<li>Supply line failures. Braided lines to toilets, sinks, washers and ice makers fail without warning. See <a href="https://fortmyerswaterdamagerestoration.us/burst-pipe/">burst pipe cleanup</a>.</li>
+<li>Roof and window leaks from summer downpours and tropical storms, often showing up as ceiling stains.</li>
+<li>Chewed lines. Rodents in quiet houses sometimes chew through plastic dishwasher, ice maker or <a href="https://fortmyerswaterdamagerestoration.us/appliance-leak/">washer hoses</a>.</li>
+<li>Leaks from the unit above in condos, where your neighbor may also be away. See <a href="https://fortmyerswaterdamagerestoration.us/condo-leak/">condo water damage</a>.</li>
+</ul>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>Room-by-room return check</h2>
+<p>Walk the house before you unpack. Use a flashlight and your nose.</p>
+<div className="table-wrap"><table><tbody>
+<tr><th>Where</th><th>What to look for</th></tr>
+<tr><td>Front door and first breath</td><td>Musty or sour smell, damp air, fogged windows</td></tr>
+<tr><td>AC closet or air handler</td><td>Water in the pan, rust, wet floor or baseboards, the thermostat reading and indoor humidity</td></tr>
+<tr><td>Kitchen</td><td>Under the sink, around the dishwasher and fridge ice maker line, swollen cabinet bottoms</td></tr>
+<tr><td>Bathrooms</td><td>Around toilets and supply lines, under vanities, loose or stained tile, shower base</td></tr>
+<tr><td>Laundry</td><td>Washer hoses, the floor behind the machine, the wall below the valves</td></tr>
+<tr><td>Water heater</td><td>Rust or water at the base, a wet drain pan, damp garage or closet floor</td></tr>
+<tr><td>Ceilings</td><td>Stains under the attic AC, bathrooms above, and along exterior walls</td></tr>
+<tr><td>Closets and furniture</td><td>Spots of mold on shoes, leather, closet walls and the backs of furniture</td></tr>
+<tr><td>Floors</td><td>Lifting <a href="https://fortmyerswaterdamagerestoration.us/floors/">vinyl plank</a>, hollow tile, dark grout lines, damp carpet edges</td></tr>
+</tbody></table></div>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>That musty smell: humidity or water damage?</h2>
+<p>A closed-up house in Southwest Florida can smell musty from humidity alone. But the smell can also come from a hidden leak or mold behind walls.</p>
+<p>Check indoor humidity with an inexpensive hygrometer. Indoor relative humidity is generally best kept below 60 percent; readings well above that mean the AC wasn't keeping up.</p>
+<p>Look for visible mold on walls, ceilings, closet contents and the AC return grille.</p>
+<p>Feel the bottoms of walls and baseboards near bathrooms, the kitchen and the AC closet for dampness or softness.</p>
+<p>Watch the water meter. With every fixture off, a moving meter means a leak somewhere.</p>
+<p>If you see mold on the air handler or vents, have the AC checked before running it hard, so it doesn't spread spores through the ducts.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>How long-running leaks change the cleanup</h2>
+<p>A leak that ran for weeks is a different job from one caught the same day.</p>
+<p>Water category drifts. Clean water left sitting for 24 to 48 hours or more can become Category 2, and long-standing water often needs to be treated as more contaminated.</p>
+<p>More material comes out. Drywall, baseboards, cabinet bases and vinyl plank that stayed wet for weeks usually can't be saved.</p>
+<p>Slabs hold more water. Concrete under tile and plank soaks up water and takes longer to dry.</p>
+<p>Mold is more likely. If mold has grown, bring in a qualified Florida mold remediator to remove it.</p>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>How water damage in a vacant Fort Myers home is dried</h2>
+<p>Find the source and stop it, with a plumber, HVAC technician or roofer as needed.</p>
+<p>Map the moisture. Meters and a thermal camera show how far water spread under floors and into walls, which is often far beyond the visible stain.</p>
+<p>Extract standing water and remove soaked carpet pad with <a href="https://fortmyerswaterdamagerestoration.us/water-removal/">emergency water removal</a>.</p>
+<p>Remove what can't be saved, photographing each item and material for the claim.</p>
+<p>Dry the structure with dehumidifiers and air movers, logging readings daily. See how <a href="https://fortmyerswaterdamagerestoration.us/drying/">structural drying</a> works.</p>
+<p>Bring humidity down in the whole house so closets, furniture and the rest of the structure stop absorbing moisture.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>How much does vacant home water damage cost?</h2>
+<p>These jobs usually cost more than a same-day leak because more material is wet and drying takes longer. These are national 2026 ranges.</p>
+<div className="table-wrap"><table><tbody>
+<tr><th>Work</th><th>Typical 2026 range</th></tr>
+<tr><td>Emergency water extraction</td><td>$500 to $2,000</td></tr>
+<tr><td>Category 1 extraction and drying</td><td>$3 to $4 per sq ft</td></tr>
+<tr><td>Category 2 extraction and drying</td><td>$4 to $6.50 per sq ft</td></tr>
+<tr><td>Drying equipment, whole job</td><td>$800 to $3,000</td></tr>
+<tr><td>Moisture monitoring, 3 to 5 days</td><td>$300 to $600</td></tr>
+<tr><td>Drywall removal and replacement</td><td>$1.50 to $3 per sq ft</td></tr>
+</tbody></table></div>
+<p>These are national ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>Insurance when nobody was home</h2>
+<p>Water claims on seasonal homes raise a few extra questions:</p>
+<p>Vacancy and unoccupancy clauses. Many policies limit coverage for certain losses if a home is vacant or unoccupied for a set number of days. Read yours, or ask your agent, before you file.</p>
+<p>Sudden vs gradual. A supply line that burst is treated differently from a slow leak that ran for months. Report the date you found it honestly.</p>
+<p>Proof of care. Home watch reports, utility bills showing normal water use, and smart-thermostat or leak-sensor logs help show the home was checked and when the damage began.</p>
+<p>Mold limits. Many Florida policies cap mold coverage.</p>
+<p>Tell it plainly. Tell the adjuster when you left, how the house was checked while you were away, and when you found the damage. Don't guess at the cause; let the inspection show it.</p>
+<p>Read <a href="https://fortmyerswaterdamagerestoration.us/insurance/">how insurance handles water damage in Florida</a>.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>How to protect the house next time you leave</h2>
+<p>Shut off the main water before you go, and turn off the water heater at its breaker or set it to vacation.</p>
+<p>Leave the AC running and set it to control humidity, rather than turning it off. Ask your HVAC company for the right setting for your system.</p>
+<p>Have the AC drain line flushed before you leave.</p>
+<p>Arrange home watch visits on a schedule, with written reports and photos, and a visit after every major storm.</p>
+<p>Install leak sensors or an automatic water shut-off valve that alert your phone.</p>
+<p>Replace old braided supply lines and washer hoses before they fail.</p>
+</div></section>
+
+<section className="section faq"><div className="container">
+<h2>Questions about water damage in vacant homes</h2>
+<h3>I came back to a wet floor. Can I just dry it with fans?</h3>
+<p>Only if it's a small, recent spill on a hard floor. If water sat for days or reached under flooring, cabinets or walls, it needs moisture mapping and commercial drying, or it will keep feeding mold.</p>
+<h3>Will insurance cover water damage if my house was empty?</h3>
+<p>It depends on your policy's vacancy or unoccupancy wording and on whether the leak was sudden or gradual. Many claims are paid; some are limited. Read the policy and document everything before cleanup.</p>
+<h3>The AC was off when I got back and there's mold. What now?</h3>
+<p>Don't run the AC hard until it's checked, keep windows closed, and photograph the mold. For removal, bring in a qualified Florida mold remediator. Drying and humidity control stop it from getting worse.</p>
+<h3>How long does drying take after a long leak?</h3>
+<p>Clean-water drying often takes about 3 to 5 days, but long-running leaks usually need tear-out first and more time on concrete slabs.</p>
+<h3>Can home watch prevent this?</h3>
+<p>It can't stop a pipe from failing, but regular visits catch leaks early, and documented visits help with insurance questions.</p>
+<h3>What's the first thing to check when I get back?</h3>
+<p>Smell the air, then check the AC closet, under the kitchen sink, around toilets and the water heater. Those are where most leaks in empty homes start.</p>
+<h3>Is there water damage help for snowbirds returning to Fort Myers, Estero or Bonita Springs?</h3>
+<p>Yes. Help for homes found wet or musty after time away covers Fort Myers, Cape Coral, Estero, Bonita Springs, Fort Myers Beach, Sanibel and the rest of Lee County. Call 239-356-3708, answered 24/7.</p>
+</div></section>
+
+<section className="section"><div className="container cta-panel">
+<h2>Came back to water damage?</h2>
+<p>Shut off the water, photograph everything and call. The sooner drying starts, the more of your home can be saved.</p>
+<p><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
+</div></section>
+</main>
+
+      <Footer creditHtml={null} />
+      <a className="call-bar" href="tel:+12393563708">Call 239-356-3708</a>
+      <style dangerouslySetInnerHTML={{ __html: "\n.page-banner{background:#15181d;color:#fff;padding:56px 0}\n.banner-inner{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}\n.page-banner h1{color:#fff;font-size:44px;line-height:1.15;margin:0;font-weight:800;letter-spacing:-.02em}\n.breadcrumb{color:#d6d9de;font-weight:700;white-space:normal;line-height:1.5}\n.breadcrumb a{color:#1b9bd7;text-decoration:none}\n@media (max-width:620px){.page-banner{padding:40px 0}.page-banner h1{font-size:36px;line-height:1.18}.table-wrap table{font-size:15px}.table-wrap th,.table-wrap td{padding:10px 8px}}\n@media (max-width:380px){.page-banner h1{font-size:32px}.table-wrap table{font-size:14px}.table-wrap th,.table-wrap td{padding:8px 6px}}\n\n/* Inner-page header dropdowns (page-scoped; mirrors homepage pattern). */\n.nav-drop{position:relative}\n.nav-toggle{background:none;border:0;padding:0;font:inherit;font-size:16px;font-weight:700;color:#15181d;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:44px}\n.nav-toggle:hover{color:#c8102e}\n.nav-toggle::after{content:\"\";border:5px solid transparent;border-top:6px solid currentColor;margin-top:3px;flex-shrink:0}\n.nav-panel{display:none}\n.nav-panel a{display:block;color:#15181d;text-decoration:none;font-weight:700;font-size:16px;padding:11px 14px;border-radius:8px;white-space:nowrap}\n.nav-panel a:hover{background:#f5f6f8;color:#c8102e}\n.nav-panel .nav-current{display:block;padding:11px 14px;font-weight:800;color:#c8102e;border-radius:8px;white-space:nowrap}\n@media (min-width:1021px){\n.nav-drop{padding:14px 0}\n.nav-panel{position:absolute;top:100%;left:0;min-width:264px;background:#fff;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.14);padding:10px;z-index:60;flex-direction:column}\n.nav-drop--areas .nav-panel{left:auto;right:0}\n.nav-drop:hover .nav-panel,.nav-drop:focus-within .nav-panel,.nav-drop.open .nav-panel{display:flex}\n.main-nav a,.nav-toggle{white-space:nowrap}\n}\n@media (max-width:1020px){\n.nav-drop{width:100%}\n.nav-toggle{width:100%;justify-content:space-between}\n.nav-drop.open .nav-panel{display:flex;position:static;box-shadow:none;padding:4px 0 4px 16px;flex-direction:column}\n.nav-panel a{white-space:normal;padding:10px 14px}\n.main-nav.open>a{padding:9px 0;line-height:27.2px}\n.nav-panel .nav-current{white-space:normal}\n}\n/* Inner-page blue table colouring (page-scoped; mirrors homepage tables). */\ntable th{background:#0b5e8c;color:#fff}\ntable td{border-top:1px solid #d8e2ec}\ntable tr:nth-child(even) td{background:#eef5fa}\n.skip-link{position:absolute;left:-9999px;top:0;z-index:9999;background:#0B5E8C;color:#fff;padding:12px 18px;font-weight:700;text-decoration:none}.skip-link:focus{left:12px;top:12px}\n\n/* TEXT-BUMP 2026-11-02: body copy +~5% (~+1px), headings gentle only, page-scoped. Nav/buttons/footer/header untouched. */\nmain{font-size:18px}\n.page-banner h1{font-size:46px}\nh2{font-size:38px}\nh3{font-size:23px}\n.card h3{font-size:21px}\n@media (max-width:620px){\nmain{font-size:17px}\n.page-banner h1{font-size:38px}\nh2{font-size:30px}\n.table-wrap table{font-size:16px}\n}\n@media (max-width:380px){\n.page-banner h1{font-size:34px}\nh2{font-size:28px}\n.table-wrap table{font-size:15px}\n}\n\n/* pretty-wrap 2026-11-02: orphan control on headings */\nh1,h2,h3{text-wrap:pretty}\n\n/* SERVICES TEXT+TABLE+H2/H3 2026-11-02: bigger text, prettier tables, brand headings (page-scoped) */\nmain h2{color:#0B5E8C}\nmain h3{color:#0F6E9E}\ntable th{background:linear-gradient(180deg,#0E6FA3,#0B5E8C);color:#fff}\ntable tr:nth-child(even) td{background:#EAF3FA}\ntable tr:hover td{background:#DCEEF9}\nmain{font-size:20px}\n@media (max-width:620px){main{font-size:19px}.table-wrap table{font-size:18px}}\n@media (max-width:380px){main{font-size:19px}.table-wrap table{font-size:17px}}\n\n/* NAV-SERVICES-SCROLLER 2026-11-02: Services dropdown scrolls instead of running long */\n.nav-drop:not(.nav-drop--areas) .nav-panel{max-height:340px;overflow-y:auto;overscroll-behavior:contain}\n\n/* HERO-BANNER 2026-11-02: unique hero photo + gradient scrim, replaces flat black banner. */\n.page-banner{position:relative;overflow:hidden;min-height:420px;display:flex;align-items:flex-end}\n.page-banner>.container{width:100%}\n.banner-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}\n.page-banner::after{content:\"\";position:absolute;inset:0;background:linear-gradient(100deg,rgba(19,42,57,.88) 0%,rgba(19,42,57,.55) 55%,rgba(19,42,57,.25) 100%);z-index:1}\n.page-banner .banner-inner{position:relative;z-index:2}\n.page-banner h1{text-shadow:0 2px 14px rgba(0,0,0,.5)}\n.page-banner .breadcrumb{text-shadow:0 1px 8px rgba(0,0,0,.6)}\n@media (max-width:620px){.page-banner{min-height:300px}.page-banner::after{background:rgba(19,42,57,.72)}}\n\n/* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */\nmain p,main li{font-size:21px}\n@media (max-width:620px){main p,main li{font-size:20px}}\n/* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}\n\n/* HERO-CONVERSION 2026-11-02: breadcrumb, H1, intro, CTA \u2014 isi order me hero ke andar. */\n.page-banner .banner-inner{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;flex-wrap:nowrap}\n.page-banner .breadcrumb{margin:0 0 14px;font-size:15px;color:rgba(255,255,255,.82)}\n.page-banner .breadcrumb a{color:rgba(255,255,255,.88)}\n.page-banner h1{margin:0 0 16px}\n.hero-intro{color:#fff;font-size:20px;line-height:1.6;max-width:780px;margin:0 0 22px;text-shadow:0 1px 10px rgba(0,0,0,.55)}\n.hero-intro a{color:#fff;text-decoration:underline;text-underline-offset:3px}\n.hero-call{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:0}\n.hero-call .btn-call{min-height:52px;padding:13px 30px;font-size:20px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}\n.hero-call span{color:rgba(255,255,255,.9);font-size:15px}\n@media (max-width:620px){.hero-intro{font-size:18px}.hero-call .btn-call{min-height:50px;padding:12px 26px;font-size:19px}}\n\n/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */\nmain p,main li{font-size:21.42px}\n@media (max-width:620px){main p,main li{font-size:20.4px}}\n.hero-intro{font-size:20.4px}\n@media (max-width:620px){.hero-intro{font-size:18.36px}}\n\n/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}\n\n/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */\nmain h2::after{content:\"\";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}\n.cta-panel h2::after{margin-left:auto;margin-right:auto}\n" }} />
+      <script dangerouslySetInnerHTML={{ __html: "\n(function(){var toggles=document.querySelectorAll('.nav-toggle');if(!toggles.length)return;function closeAll(except){document.querySelectorAll('.nav-drop.open').forEach(function(d){if(d!==except){d.classList.remove('open');var b=d.querySelector('.nav-toggle');if(b)b.setAttribute('aria-expanded','false');}});}toggles.forEach(function(btn){btn.addEventListener('click',function(){var drop=btn.closest('.nav-drop');var isOpen=drop.classList.contains('open');closeAll(drop);if(!isOpen){drop.classList.add('open');btn.setAttribute('aria-expanded','true');}else{drop.classList.remove('open');btn.setAttribute('aria-expanded','false');}});});document.addEventListener('click',function(ev){if(!ev.target.closest('.nav-drop'))closeAll(null);});document.addEventListener('keydown',function(ev){if(ev.key==='Escape')closeAll(null);});var menuBtn=document.querySelector('.menu-btn');var nav=document.getElementById('nav');if(menuBtn&&nav){menuBtn.addEventListener('click',function(){if(!nav.classList.contains('open'))closeAll(null);});}})();\n" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"LocalBusiness\",\n      \"@id\": \"https://fortmyerswaterdamagerestoration.us/#business\",\n      \"name\": \"Fort Myers Water Damage Restoration\",\n      \"url\": \"https://fortmyerswaterdamagerestoration.us/\",\n      \"telephone\": \"+1-239-356-3708\",\n      \"areaServed\": [\n        \"Fort Myers, FL\",\n        \"Lee County, FL\"\n      ],\n      \"openingHoursSpecification\": {\n        \"@type\": \"OpeningHoursSpecification\",\n        \"dayOfWeek\": [\n          \"Monday\",\n          \"Tuesday\",\n          \"Wednesday\",\n          \"Thursday\",\n          \"Friday\",\n          \"Saturday\",\n          \"Sunday\"\n        ],\n        \"opens\": \"00:00\",\n        \"closes\": \"23:59\"\n      },\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Fort Myers\",\n        \"addressRegion\": \"FL\",\n        \"postalCode\": \"33901\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"name\": \"Water Damage Found After Returning to Your Fort Myers Home\",\n      \"serviceType\": \"Came Back to Water Damage? Fort Myers Vacant Homes\",\n      \"provider\": {\n        \"@id\": \"https://fortmyerswaterdamagerestoration.us/#business\"\n      },\n      \"areaServed\": [\n        \"Fort Myers, FL\",\n        \"Lee County, FL\"\n      ],\n      \"url\": \"https://fortmyerswaterdamagerestoration.us/vacant-home/\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"I came back to a wet floor. Can I just dry it with fans?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Only if it's a small, recent spill on a hard floor. If water sat for days or reached under flooring, cabinets or walls, it needs moisture mapping and commercial drying, or it will keep feeding mold.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Will insurance cover water damage if my house was empty?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"It depends on your policy's vacancy or unoccupancy wording and on whether the leak was sudden or gradual. Many claims are paid; some are limited. Read the policy and document everything before cleanup.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"The AC was off when I got back and there's mold. What now?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Don't run the AC hard until it's checked, keep windows closed, and photograph the mold. For removal, bring in a qualified Florida mold remediator. Drying and humidity control stop it from getting worse.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How long does drying take after a long leak?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Clean-water drying often takes about 3 to 5 days, but long-running leaks usually need tear-out first and more time on concrete slabs.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can home watch prevent this?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"It can't stop a pipe from failing, but regular visits catch leaks early, and documented visits help with insurance questions.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What's the first thing to check when I get back?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Smell the air, then check the AC closet, under the kitchen sink, around toilets and the water heater. Those are where most leaks in empty homes start.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is there water damage help for snowbirds returning to Fort Myers, Estero or Bonita Springs?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Help for homes found wet or musty after time away covers Fort Myers, Cape Coral, Estero, Bonita Springs, Fort Myers Beach, Sanibel and the rest of Lee County. Call 239-356-3708, answered 24/7.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n" }} />
+
+    </>
+  );
+}

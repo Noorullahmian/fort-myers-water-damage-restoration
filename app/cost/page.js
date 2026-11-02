@@ -1,0 +1,211 @@
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+export const metadata = {
+  title: "Water Damage Restoration Cost in Fort Myers (2026)",
+  description: "What water damage cleanup costs in Fort Myers: per square foot by water category, drying equipment per day, sewage cleanup and repair ranges.",
+  icons: {
+    icon: [{ url: "../assets/favicon-48.png", type: "image/png", sizes: "48x48" }],
+    apple: [{ url: "../assets/apple-touch-icon.png", sizes: "180x180" }],
+    shortcut: [{ url: "../assets/favicon.ico" }],
+  },
+  openGraph: {
+    type: "website",
+    title: "Water Damage Restoration Cost in Fort Myers (2026)",
+    description: "What water damage cleanup costs in Fort Myers: per square foot by water category, drying equipment per day, sewage cleanup and repair ranges.",
+    url: "https://fortmyerswaterdamagerestoration.us/cost/",
+    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-damage-assessment-technician.jpg" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Water Damage Restoration Cost in Fort Myers (2026)",
+    description: "What water damage cleanup costs in Fort Myers: per square foot by water category, drying equipment per day, sewage cleanup and repair ranges.",
+    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-damage-assessment-technician.jpg"],
+  },
+  alternates: { canonical: "https://fortmyerswaterdamagerestoration.us/cost/" },
+};
+
+export const viewport = { width: 'device-width', initialScale: 1, themeColor: "#0B5E8C" };
+
+export default function Page() {
+  return (
+    <>
+      <Header current="cost" />
+
+<main id="main">
+<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-damage-assessment-technician.jpg" alt="Technician in a hard hat inspecting a home exterior" loading="eager" decoding="async" /><div className="container banner-inner">
+<h1>How Much Does Water Damage Restoration Cost in Fort Myers?</h1>
+<nav className="breadcrumb" aria-label="Breadcrumb"><a href="https://fortmyerswaterdamagerestoration.us/">Home</a> &raquo; Services &raquo; How Much Does Water Damage Restoration Cost in Fort Myers?</nav>
+</div></section>
+
+<section className="section"><div className="container">
+
+<div>
+<p>Most homes pay roughly $1,300 to $5,700 for water damage restoration, with a national 2026 average around $3,250. But a soaked closet and a flooded house are very different jobs. In Fort Myers, your price comes down to the water type, the wet square footage, the materials and the drying days.</p>
+<p><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
+</div>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>Water Damage Restoration Prices for Fort Myers Homeowners</h2>
+<p>Clean-water mitigation typically runs $3 to $4 per square foot; gray water $4 to $6.50; sewage and floodwater $7 to $7.50 and up.</p>
+<p>Emergency extraction alone usually costs $500 to $2,000; drying equipment for a whole job $800 to $3,000.</p>
+<p>The fastest way to keep the cost down is to stop the water and start drying the same day.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>Water damage restoration cost by water category</h2>
+<p>The category of water is the biggest single driver of price, because it decides how much has to be removed and how much protection the crew needs.</p>
+<div className="table-wrap"><table><tbody>
+<tr><th>Water category</th><th>Typical sources in Fort Myers homes</th><th>Typical 2026 cost</th></tr>
+<tr><td>Category 1, clean</td><td>Supply line, <a href="https://fortmyerswaterdamagerestoration.us/water-heater-leak/">water heater</a>, AC condensate, rain before it touches the ground</td><td>$3 to $4 per sq ft</td></tr>
+<tr><td>Category 2, gray</td><td>Washing machine, dishwasher, toilet overflow without waste, clean water left sitting</td><td>$4 to $6.50 per sq ft</td></tr>
+<tr><td>Category 3, black</td><td>Sewage backup, cracked cast iron drain, floodwater, <a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">storm surge</a></td><td>$7 to $7.50+ per sq ft; heavy sewage about $7 to $16 per sq ft</td></tr>
+</tbody></table></div>
+<p>These per-square-foot ranges usually cover extraction, drying and monitoring. Tear-out, rebuilding and minimum charges are added on top.</p>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>Water damage cost by task</h2>
+<p>Most restoration estimates in Florida are itemized, often in Xactimate, the estimating software most insurers use. These are the line items you're likely to see:</p>
+<div className="table-wrap"><table><tbody>
+<tr><th>Line item</th><th>Typical 2026 range</th></tr>
+<tr><td>Emergency water extraction</td><td>$500 to $2,000</td></tr>
+<tr><td>Drying equipment, whole job</td><td>$800 to $3,000</td></tr>
+<tr><td>LGR dehumidifier, per day (example market)</td><td>$85 to $125</td></tr>
+<tr><td>Desiccant dehumidifier, per day (example market)</td><td>$150 to $250</td></tr>
+<tr><td>Air mover, per day (example market)</td><td>$22 to $35</td></tr>
+<tr><td>Moisture monitoring, 3 to 5 days</td><td>$300 to $600</td></tr>
+<tr><td>Antimicrobial treatment</td><td>$200 to $600</td></tr>
+<tr><td>Carpet removal</td><td>$1 to $2 per sq ft</td></tr>
+<tr><td>Drywall removal and replacement</td><td>$1.50 to $3 per sq ft</td></tr>
+</tbody></table></div>
+<p>Equipment is billed per piece, per day, until moisture readings reach normal. That is why a job dried in three days costs less than the same job dried in six.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>Cost by type of water damage</h2>
+<div className="table-wrap"><table><tbody>
+<tr><th>Problem</th><th>What usually drives the price</th><th>Read more</th></tr>
+<tr><td>AC leak into the ceiling or closet</td><td>Wet insulation and ceiling drywall; how long the leak ran</td><td><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC leak water damage</a></td></tr>
+<tr><td>Burst supply line</td><td>Square footage and how far water spread under flooring</td><td><a href="https://fortmyerswaterdamagerestoration.us/burst-pipe/">Burst pipe cleanup</a></td></tr>
+<tr><td>Condo leak from above</td><td>Number of units affected; separate drying per unit</td><td><a href="https://fortmyerswaterdamagerestoration.us/condo-leak/">Condo water damage</a></td></tr>
+<tr><td>Sewage backup</td><td>Category 3 removal, containment, disinfection</td><td><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage backup cleanup</a></td></tr>
+<tr><td>Cast iron drain failure</td><td>Plumbing repair plus Category 3 cleanup and floor removal</td><td><a href="https://fortmyerswaterdamagerestoration.us/cast-iron-pipe/">Cast iron pipe water damage</a></td></tr>
+<tr><td>Standing water after any leak</td><td>Extraction time and volume</td><td><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Emergency water removal</a></td></tr>
+</tbody></table></div>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>Worked examples</h2>
+<p>These use the national ranges above. They show how the math works; your own price comes from an inspection.</p>
+<p>Example 1: Burst toilet supply line, clean water, 300 square feet wet. 300 sq ft × $3 to $4 = about $900 to $1,200 for extraction and drying. If 60 sq ft of drywall has to be cut out and replaced, add about $90 to $180, plus baseboards and paint.</p>
+<p>Example 2: Washing machine overflow, gray water, 400 square feet wet. 400 sq ft × $4 to $6.50 = about $1,600 to $2,600. Carpet pad and some lower drywall are usually removed with gray water, so rebuild costs follow.</p>
+<p>Example 3: Sewage backup in a bathroom and hallway, 200 square feet. 200 sq ft × $7 to $16 = about $1,400 to $3,200 for removal, disinfection and drying. Add the plumber: about $350 to $600 to jet the line, or $200 to $1,300 for a camera inspection.</p>
+<p>Small jobs often cost more per square foot than the math suggests, because companies have minimum charges for the trip, equipment setup and monitoring visits.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>What makes water damage cost more</h2>
+<p>Time. Clean water left for 24 to 48 hours can become Category 2, and longer leaks mean more tear-out and more drying days.</p>
+<p>Contamination. Sewage and floodwater require protective gear, containment and removal of porous materials.</p>
+<p>Materials. Hardwood, <a href="https://fortmyerswaterdamagerestoration.us/floors/">vinyl plank</a> on slab and concrete take longer to dry than carpet and drywall.</p>
+<p>Spread. Water that ran under tile, cabinets and into walls costs more than a puddle on a hard floor.</p>
+<p>Access. Attics, crawl spaces, condo units above and below, and high ceilings add labor.</p>
+<p>Mold. If mold has already grown, remediation by a qualified Florida mold remediator is a separate cost.</p>
+<p>Demand after storms. After a hurricane or major flood in Lee County, crews and equipment are in short supply.</p>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>How to keep the cost down</h2>
+<ul>
+<li>Stop the water fast at the fixture or main shut-off.</li>
+<li>Start drying the same day. Every day of delay adds tear-out and equipment days. Use the <a href="https://fortmyerswaterdamagerestoration.us/first-hour-checklist/">first-hour checklist</a>.</li>
+<li>Move belongings out of the water so contents don't add to the bill.</li>
+<li>Don't tear out materials yourself before photos; it can complicate your claim.</li>
+<li>Ask for a written, itemized estimate and daily moisture readings, so you know when equipment can come out.</li>
+</ul>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>What's included in a water damage estimate</h2>
+<p>A clear estimate should list:</p>
+<ul>
+<li>The water category and class of damage</li>
+<li>Square footage of each affected room</li>
+<li>Extraction, by square foot</li>
+<li>Each piece of drying equipment, with the number of days</li>
+<li>Monitoring visits</li>
+<li>Antimicrobial treatment</li>
+<li>Materials removed (carpet, pad, drywall, baseboards, cabinets) and disposal</li>
+<li>What is not included, such as rebuild, plumbing or mold work</li>
+</ul>
+<p>Mitigation (removal and drying) and restoration (rebuilding) are often priced separately. Learn how <a href="https://fortmyerswaterdamagerestoration.us/drying/">structural drying</a> is measured and billed.</p>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>What repairs cost after drying</h2>
+<p>Drying stops the damage; repairs put the house back together. These are separate costs, and on bigger jobs repairs often cost more than the drying.</p>
+<div className="table-wrap"><table><tbody>
+<tr><th>Repair after water damage</th><th>Typical 2026 range</th></tr>
+<tr><td>Drywall replacement</td><td>$1.50 to $3 per sq ft</td></tr>
+<tr><td>Carpet replacement</td><td>$2 to $8 per sq ft</td></tr>
+<tr><td>Hardwood flooring replacement</td><td>$10 to $15 per sq ft</td></tr>
+<tr><td>Plaster repair</td><td>$6 to $19 per sq ft</td></tr>
+<tr><td>Baseboards, paint and trim</td><td>Priced per linear foot and per room</td></tr>
+<tr><td>Cabinets and countertops</td><td>Priced per cabinet run; matching older cabinets can add cost</td></tr>
+</tbody></table></div>
+<p>In Fort Myers homes, the most expensive repairs are usually flooring on the slab, because tile and vinyl plank often have to be replaced across a whole room to match, and <a href="https://fortmyerswaterdamagerestoration.us/cabinets/">kitchen cabinets</a>, because particle board swells for good once soaked.</p>
+</div></section>
+
+<section className="section"><div className="container">
+<h2>Water damage cost compared with waiting</h2>
+<p>The cheapest water damage job is the one dried in the first day. Leaving water in place doesn't save money; it moves the job into a higher price bracket:</p>
+<p>Day 1: clean water, often dried in place; drywall and carpet frequently saved.</p>
+<p>Day 3: water may be treated as Category 2; carpet pad, lower drywall and swollen baseboards usually come out.</p>
+<p>Day 7 and later: cabinets, flooring and more drywall are often lost, mold becomes likely, and both drying and repair costs climb.</p>
+</div></section>
+
+<section className="section section-gray"><div className="container">
+<h2>Will insurance pay for water damage restoration?</h2>
+<p>Often, when the damage was sudden and accidental, such as a burst supply line or an AC overflow. You pay your deductible, and the policy pays covered costs above it. Long-term leaks, floodwater without a flood policy, and some sewer backups without an endorsement are common exclusions. Read <a href="https://fortmyerswaterdamagerestoration.us/insurance/">how insurance handles water damage in Florida</a>.</p>
+</div></section>
+
+<section className="section faq"><div className="container">
+<h2>Questions about water damage restoration cost</h2>
+<h3>How much does water damage restoration cost on average?</h3>
+<p>National 2026 cost guides put the average around $3,250, with most homes paying about $1,300 to $5,700. Large losses, sewage and floods can cost much more.</p>
+<h3>How much does it cost to dry out a house after a leak?</h3>
+<p>Clean-water extraction and drying usually runs about $3 to $4 per square foot. Drying equipment for a whole job typically costs $800 to $3,000.</p>
+<h3>Why can't I get an exact price over the phone?</h3>
+<p>The price depends on how far water spread inside walls and under flooring, which can only be measured on site with moisture meters and a thermal camera.</p>
+<h3>Is it cheaper to dry it myself?</h3>
+<p>For a small clean-water spill caught right away, yes. When water reaches under flooring, into walls or under cabinets, DIY drying often misses hidden moisture, and the cost of mold and replacement later is higher.</p>
+<h3>Does the restoration price include repairs?</h3>
+<p>Usually not. Mitigation (water removal and drying) and restoration (drywall, flooring, cabinets, paint) are often estimated separately. Ask which parts are included before you sign.</p>
+<h3>Is water damage restoration worth it if I have a high deductible?</h3>
+<p>For small losses under your deductible, you pay the cost yourself either way, so fast drying still saves money by limiting tear-out. For larger losses, the claim usually covers more than the deductible.</p>
+<h3>How much does water damage restoration cost in Cape Coral or Lehigh Acres?</h3>
+<p>The same drivers apply across Lee County: water category, square footage, materials and drying days. For a price on your home in Fort Myers, <a href="https://fortmyerswaterdamagerestoration.us/cape-coral/">Cape Coral</a>, Lehigh Acres, Estero or Bonita Springs, call 239-356-3708 and describe what you see.</p>
+<h3>Why did my water damage estimate go up after the first day?</h3>
+<p>Moisture readings often show water spread farther under flooring and inside walls than you could see, which adds square footage, removal or drying days. Ask for the moisture map and photos behind any change.</p>
+<h3>Is it cheaper to dry it myself with fans?</h3>
+<p>For a small, clean spill caught right away, fans and a dehumidifier may be enough. Water under flooring or inside walls usually isn't reached by household fans, and mold remediation later costs more than drying it right the first time.</p>
+</div></section>
+
+<section className="section"><div className="container cta-panel">
+<h2>Want to know what your water damage will cost?</h2>
+<p>Describe what happened and where the water is, and get a <a href="https://fortmyerswaterdamagerestoration.us/how-it-works/">written estimate</a> before work beyond emergency extraction starts.</p>
+<p><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
+</div></section>
+</main>
+
+      <Footer creditHtml={null} />
+      <a className="call-bar" href="tel:+12393563708">Call 239-356-3708</a>
+      <style dangerouslySetInnerHTML={{ __html: "\n.page-banner{background:#15181d;color:#fff;padding:56px 0}\n.banner-inner{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}\n.page-banner h1{color:#fff;font-size:44px;line-height:1.15;margin:0;font-weight:800;letter-spacing:-.02em}\n.breadcrumb{color:#d6d9de;font-weight:700;white-space:normal;line-height:1.5}\n.breadcrumb a{color:#1b9bd7;text-decoration:none}\n@media (max-width:620px){.page-banner{padding:40px 0}.page-banner h1{font-size:36px;line-height:1.18}.table-wrap table{font-size:15px}.table-wrap th,.table-wrap td{padding:10px 8px}}\n@media (max-width:380px){.page-banner h1{font-size:32px}.table-wrap table{font-size:14px}.table-wrap th,.table-wrap td{padding:8px 6px}}\n\n/* Inner-page header dropdowns (page-scoped; mirrors homepage pattern). */\n.nav-drop{position:relative}\n.nav-toggle{background:none;border:0;padding:0;font:inherit;font-size:16px;font-weight:700;color:#15181d;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:44px}\n.nav-toggle:hover{color:#c8102e}\n.nav-toggle::after{content:\"\";border:5px solid transparent;border-top:6px solid currentColor;margin-top:3px;flex-shrink:0}\n.nav-panel{display:none}\n.nav-panel a{display:block;color:#15181d;text-decoration:none;font-weight:700;font-size:16px;padding:11px 14px;border-radius:8px;white-space:nowrap}\n.nav-panel a:hover{background:#f5f6f8;color:#c8102e}\n.nav-panel .nav-current{display:block;padding:11px 14px;font-weight:800;color:#c8102e;border-radius:8px;white-space:nowrap}\n@media (min-width:1021px){\n.nav-drop{padding:14px 0}\n.nav-panel{position:absolute;top:100%;left:0;min-width:264px;background:#fff;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.14);padding:10px;z-index:60;flex-direction:column}\n.nav-drop--areas .nav-panel{left:auto;right:0}\n.nav-drop:hover .nav-panel,.nav-drop:focus-within .nav-panel,.nav-drop.open .nav-panel{display:flex}\n.main-nav a,.nav-toggle{white-space:nowrap}\n}\n@media (max-width:1020px){\n.nav-drop{width:100%}\n.nav-toggle{width:100%;justify-content:space-between}\n.nav-drop.open .nav-panel{display:flex;position:static;box-shadow:none;padding:4px 0 4px 16px;flex-direction:column}\n.nav-panel a{white-space:normal;padding:10px 14px}\n.main-nav.open>a{padding:9px 0;line-height:27.2px}\n.nav-panel .nav-current{white-space:normal}\n}\n/* Inner-page blue table colouring (page-scoped; mirrors homepage tables). */\ntable th{background:#0b5e8c;color:#fff}\ntable td{border-top:1px solid #d8e2ec}\ntable tr:nth-child(even) td{background:#eef5fa}\n.skip-link{position:absolute;left:-9999px;top:0;z-index:9999;background:#0B5E8C;color:#fff;padding:12px 18px;font-weight:700;text-decoration:none}.skip-link:focus{left:12px;top:12px}\n\n/* TEXT-BUMP 2026-11-02: body copy +~5% (~+1px), headings gentle only, page-scoped. Nav/buttons/footer/header untouched. */\nmain{font-size:18px}\n.page-banner h1{font-size:46px}\nh2{font-size:38px}\nh3{font-size:23px}\n.card h3{font-size:21px}\n@media (max-width:620px){\nmain{font-size:17px}\n.page-banner h1{font-size:38px}\nh2{font-size:30px}\n.table-wrap table{font-size:16px}\n}\n@media (max-width:380px){\n.page-banner h1{font-size:34px}\nh2{font-size:28px}\n.table-wrap table{font-size:15px}\n}\n\n/* pretty-wrap 2026-11-02: orphan control on headings */\nh1,h2,h3{text-wrap:pretty}\n\n/* NAV-SERVICES-SCROLLER 2026-11-02: Services dropdown scrolls instead of running long */\n.nav-drop:not(.nav-drop--areas) .nav-panel{max-height:340px;overflow-y:auto;overscroll-behavior:contain}\n\n/* HERO-BANNER 2026-11-02: unique hero photo + gradient scrim, replaces flat black banner. */\n.page-banner{position:relative;overflow:hidden;min-height:420px;display:flex;align-items:flex-end}\n.page-banner>.container{width:100%}\n.banner-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}\n.page-banner::after{content:\"\";position:absolute;inset:0;background:linear-gradient(100deg,rgba(19,42,57,.88) 0%,rgba(19,42,57,.55) 55%,rgba(19,42,57,.25) 100%);z-index:1}\n.page-banner .banner-inner{position:relative;z-index:2}\n.page-banner h1{text-shadow:0 2px 14px rgba(0,0,0,.5)}\n.page-banner .breadcrumb{text-shadow:0 1px 8px rgba(0,0,0,.6)}\n@media (max-width:620px){.page-banner{min-height:300px}.page-banner::after{background:rgba(19,42,57,.72)}}\n\n/* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */\nmain p,main li{font-size:19px}\n@media (max-width:620px){main p,main li{font-size:18px}}\n/* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}\n\n/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */\nmain p,main li{font-size:19.38px}\n@media (max-width:620px){main p,main li{font-size:18.36px}}\n\n/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}\n\n/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */\nmain h2::after{content:\"\";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}\n.cta-panel h2::after{margin-left:auto;margin-right:auto}\n" }} />
+      <script dangerouslySetInnerHTML={{ __html: "\n(function(){var toggles=document.querySelectorAll('.nav-toggle');if(!toggles.length)return;function closeAll(except){document.querySelectorAll('.nav-drop.open').forEach(function(d){if(d!==except){d.classList.remove('open');var b=d.querySelector('.nav-toggle');if(b)b.setAttribute('aria-expanded','false');}});}toggles.forEach(function(btn){btn.addEventListener('click',function(){var drop=btn.closest('.nav-drop');var isOpen=drop.classList.contains('open');closeAll(drop);if(!isOpen){drop.classList.add('open');btn.setAttribute('aria-expanded','true');}else{drop.classList.remove('open');btn.setAttribute('aria-expanded','false');}});});document.addEventListener('click',function(ev){if(!ev.target.closest('.nav-drop'))closeAll(null);});document.addEventListener('keydown',function(ev){if(ev.key==='Escape')closeAll(null);});var menuBtn=document.querySelector('.menu-btn');var nav=document.getElementById('nav');if(menuBtn&&nav){menuBtn.addEventListener('click',function(){if(!nav.classList.contains('open'))closeAll(null);});}})();\n" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"LocalBusiness\",\n      \"@id\": \"https://fortmyerswaterdamagerestoration.us/#business\",\n      \"name\": \"Fort Myers Water Damage Restoration\",\n      \"url\": \"https://fortmyerswaterdamagerestoration.us/\",\n      \"telephone\": \"+1-239-356-3708\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Fort Myers\",\n        \"addressRegion\": \"FL\",\n        \"postalCode\": \"33901\"\n      },\n      \"areaServed\": [\n        \"Fort Myers, FL\",\n        \"Lee County, FL\"\n      ],\n      \"openingHoursSpecification\": {\n        \"@type\": \"OpeningHoursSpecification\",\n        \"dayOfWeek\": [\n          \"Monday\",\n          \"Tuesday\",\n          \"Wednesday\",\n          \"Thursday\",\n          \"Friday\",\n          \"Saturday\",\n          \"Sunday\"\n        ],\n        \"opens\": \"00:00\",\n        \"closes\": \"23:59\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much does water damage restoration cost on average?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"National 2026 cost guides put the average around $3,250, with most homes paying about $1,300 to $5,700. Large losses, sewage and floods can cost much more.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much does it cost to dry out a house after a leak?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Clean-water extraction and drying usually runs about $3 to $4 per square foot. Drying equipment for a whole job typically costs $800 to $3,000.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why can't I get an exact price over the phone?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The price depends on how far water spread inside walls and under flooring, which can only be measured on site with moisture meters and a thermal camera.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is it cheaper to dry it myself?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"For a small clean-water spill caught right away, yes. When water reaches under flooring, into walls or under cabinets, DIY drying often misses hidden moisture, and the cost of mold and replacement later is higher.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does the restoration price include repairs?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Usually not. Mitigation (water removal and drying) and restoration (drywall, flooring, cabinets, paint) are often estimated separately. Ask which parts are included before you sign.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is water damage restoration worth it if I have a high deductible?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"For small losses under your deductible, you pay the cost yourself either way, so fast drying still saves money by limiting tear-out. For larger losses, the claim usually covers more than the deductible.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much does water damage restoration cost in Cape Coral or Lehigh Acres?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The same drivers apply across Lee County: water category, square footage, materials and drying days. For a price on your home in Fort Myers, Cape Coral, Lehigh Acres, Estero or Bonita Springs, call 239-356-3708 and describe what you see.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why did my water damage estimate go up after the first day?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Moisture readings often show water spread farther under flooring and inside walls than you could see, which adds square footage, removal or drying days. Ask for the moisture map and photos behind any change.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is it cheaper to dry it myself with fans?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"For a small, clean spill caught right away, fans and a dehumidifier may be enough. Water under flooring or inside walls usually isn't reached by household fans, and mold remediation later costs more than drying it right the first time.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n" }} />
+
+    </>
+  );
+}
