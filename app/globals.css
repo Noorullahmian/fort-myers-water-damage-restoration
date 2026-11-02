@@ -67,6 +67,7 @@ td{padding:16px;border-top:1px solid #e5e7eb;vertical-align:top}
 .footer a{color:#d6d9de;text-decoration:none}
 .footer ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .footer-bottom{border-top:1px solid #333;margin-top:50px;padding:22px 0;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:15px}
+.footer-map{margin-top:22px}.footer-map iframe{display:block;width:100%;height:170px;border:0;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.35)}
 .call-bar{display:none}
 @media (max-width:1020px){
 .split{grid-template-columns:1fr}
@@ -90,6 +91,8 @@ h2{font-size:28px}
 .brand{font-size:18px}
 .brand span{font-size:11px}
 .utility .container{justify-content:center;gap:14px;font-size:13px}
+.utility .util-247{display:none}
+.utility .container a:first-child{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;background:#c8102e;color:#fff;border-radius:8px;font-size:15px;font-weight:800;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 .call-bar{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:#c8102e;color:#fff;text-align:center;padding:14px;font-weight:800;text-decoration:none}
 body{padding-bottom:52px}
 }

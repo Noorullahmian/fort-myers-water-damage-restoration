@@ -30,7 +30,7 @@ export default function Header({ current }) {
   return (
     <>
       <a className="skip-link" href="#main">Skip to main content</a>
-      <div className="utility"><div className="container">{current === 'home' ? (<a href="tel:+12393563708"><span className="util-247">Available 24/7: </span>239-356-3708</a>) : (<a href="tel:+12393563708">Available 24/7: 239-356-3708</a>)}<a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></div></div>
+      <div className="utility"><div className="container">{current === 'home' ? (<a href="tel:+12393563708"><span className="util-247">Available 24/7: </span>239-356-3708</a>) : (<a href="tel:+12393563708"><span className="util-247">Available 24/7: </span>239-356-3708</a>)}<a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></div></div>
       <header className="main-header"><div className="container header-inner">
         <a className="brand" href="https://fortmyerswaterdamagerestoration.us/">Fort Myers Water Damage<span>Restoration, FL</span></a>
         <button className="menu-btn" type="button" aria-label="Open menu" onClick={() => { const nav = document.getElementById('nav'); if (nav) nav.classList.toggle('open'); }}>Menu</button>
