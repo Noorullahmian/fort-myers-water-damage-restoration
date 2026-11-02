@@ -194,7 +194,11 @@ body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.78) 0%,
 
 /* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */
 main p,main li{font-size:21.4px}
-@media (max-width:620px){main p,main li{font-size:20.4px}}</style>
+@media (max-width:620px){main p,main li{font-size:20.4px}}
+/* HERO-DARKEN 2026-11-02: hero zyada dark, photo phir bhi nazar aaye. */
+body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.90) 0%,rgba(19,42,57,.65) 55%,rgba(19,42,57,.50) 100%)}
+@media (max-width:620px){body.home .hero-overlay{background:rgba(19,42,57,.84)}}
+</style>
 </head>
 <body class="home">
 <a class="skip-link" href="#main">Skip to main content</a>

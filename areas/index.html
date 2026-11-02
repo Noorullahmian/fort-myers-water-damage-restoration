@@ -95,7 +95,11 @@ h1,h2,h3{text-wrap:pretty}
 
 /* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */
 main p,main li{font-size:19px}
-@media (max-width:620px){main p,main li{font-size:18px}}</style>
+@media (max-width:620px){main p,main li{font-size:18px}}
+/* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>

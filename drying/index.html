@@ -126,7 +126,23 @@ table th,table td{font-size:21px}
 main p,main li{font-size:23px}
 @media (max-width:620px){main p,main li{font-size:22px}}
 .faq p{font-size:22px}
-@media (max-width:620px){.faq p{font-size:21px}}</style>
+@media (max-width:620px){.faq p{font-size:21px}}
+/* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}
+
+/* HERO-CONVERSION 2026-11-02: breadcrumb, H1, intro, CTA — isi order me hero ke andar. */
+.page-banner .banner-inner{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;flex-wrap:nowrap}
+.page-banner .breadcrumb{margin:0 0 14px;font-size:15px;color:rgba(255,255,255,.82)}
+.page-banner .breadcrumb a{color:rgba(255,255,255,.88)}
+.page-banner h1{margin:0 0 16px}
+.hero-intro{color:#fff;font-size:20px;line-height:1.6;max-width:780px;margin:0 0 22px;text-shadow:0 1px 10px rgba(0,0,0,.55)}
+.hero-intro a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.hero-call{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:0}
+.hero-call .btn-call{min-height:52px;padding:13px 30px;font-size:20px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.hero-call span{color:rgba(255,255,255,.9);font-size:15px}
+@media (max-width:620px){.hero-intro{font-size:18px}.hero-call .btn-call{min-height:50px;padding:12px 26px;font-size:19px}}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -173,17 +189,13 @@ main p,main li{font-size:23px}
 </div></header>
 <main id="main">
 <section class="page-banner"><img class="banner-img" src="../assets/fort-myers-structural-drying-air-movers.jpg" alt="Worker positioning a large industrial drying fan indoors" loading="eager" decoding="async"><div class="container banner-inner">
-<h1>Water Mitigation and Structural Drying in Fort Myers</h1>
 <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://fortmyerswaterdamagerestoration.us/">Home</a> &raquo; Services &raquo; Water Mitigation and Structural Drying in Fort Myers</nav>
+<h1>Water Mitigation and Structural Drying in Fort Myers</h1>
+<p class="hero-intro">Fans running for days and the walls still feel damp? In Fort Myers humidity, wet drywall, slab and cabinets barely dry on their own. Our structural drying uses commercial dehumidifiers, air movers and daily moisture readings to dry your home to a measured standard, so nothing gets closed up wet.</p>
+<p class="hero-call"><a class="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
 </div></section>
 
-<section class="section"><div class="container">
 
-<div>
-<p>Fans running for days and the walls still feel damp? In Fort Myers humidity, wet drywall, slab and cabinets barely dry on their own. Our structural drying uses commercial dehumidifiers, air movers and daily moisture readings to dry your home to a measured standard, so nothing gets closed up wet.</p>
-<p><a class="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
-</div>
-</div></section>
 
 <section class="section section-gray"><div class="container">
 <h2>Professional Water Damage Drying in Fort Myers and Lee County</h2>
