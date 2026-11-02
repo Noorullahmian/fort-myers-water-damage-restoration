@@ -99,7 +99,134 @@ main p,main li{font-size:19px}
 /* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */
 .page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}
 @media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:19.38px}
+@media (max-width:620px){main p,main li{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does water damage restoration cost on average?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026 cost guides put the average around $3,250, with most homes paying about $1,300 to $5,700. Large losses, sewage and floods can cost much more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to dry out a house after a leak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clean-water extraction and drying usually runs about $3 to $4 per square foot. Drying equipment for a whole job typically costs $800 to $3,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why can't I get an exact price over the phone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The price depends on how far water spread inside walls and under flooring, which can only be measured on site with moisture meters and a thermal camera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it cheaper to dry it myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a small clean-water spill caught right away, yes. When water reaches under flooring, into walls or under cabinets, DIY drying often misses hidden moisture, and the cost of mold and replacement later is higher."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the restoration price include repairs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not. Mitigation (water removal and drying) and restoration (drywall, flooring, cabinets, paint) are often estimated separately. Ask which parts are included before you sign."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is water damage restoration worth it if I have a high deductible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For small losses under your deductible, you pay the cost yourself either way, so fast drying still saves money by limiting tear-out. For larger losses, the claim usually covers more than the deductible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does water damage restoration cost in Cape Coral or Lehigh Acres?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The same drivers apply across Lee County: water category, square footage, materials and drying days. For a price on your home in Fort Myers, Cape Coral, Lehigh Acres, Estero or Bonita Springs, call 239-356-3708 and describe what you see."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did my water damage estimate go up after the first day?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Moisture readings often show water spread farther under flooring and inside walls than you could see, which adds square footage, removal or drying days. Ask for the moisture map and photos behind any change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it cheaper to dry it myself with fans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a small, clean spill caught right away, fans and a dehumidifier may be enough. Water under flooring or inside walls usually isn't reached by household fans, and mold remediation later costs more than drying it right the first time."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -153,7 +280,7 @@ main p,main li{font-size:19px}
 <section class="section"><div class="container">
 
 <div>
-<p>Most homes pay roughly $1,300 to $5,700 for water damage restoration, with a national 2026 average around $3,250. But a soaked closet and a flooded house are very different jobs. In Fort Myers, your price comes down to the water type, the wet square footage, the materials and the drying days.</p>
+<p>Most homes pay roughly $1,300 to $5,700 for water damage restoration, with a 2026 average around $3,250. But a soaked closet and a flooded house are very different jobs. In Fort Myers, your price comes down to the water type, the wet square footage, the materials and the drying days.</p>
 <p><a class="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
 </div>
 </div></section>
@@ -210,7 +337,7 @@ main p,main li{font-size:19px}
 
 <section class="section section-gray"><div class="container">
 <h2>Worked examples</h2>
-<p>These use the national ranges above. They show how the math works; your own price comes from an inspection.</p>
+<p>These use the ranges above. They show how the math works; your own price comes from an inspection.</p>
 <p>Example 1: Burst toilet supply line, clean water, 300 square feet wet. 300 sq ft × $3 to $4 = about $900 to $1,200 for extraction and drying. If 60 sq ft of drywall has to be cut out and replaced, add about $90 to $180, plus baseboards and paint.</p>
 <p>Example 2: Washing machine overflow, gray water, 400 square feet wet. 400 sq ft × $4 to $6.50 = about $1,600 to $2,600. Carpet pad and some lower drywall are usually removed with gray water, so rebuild costs follow.</p>
 <p>Example 3: Sewage backup in a bathroom and hallway, 200 square feet. 200 sq ft × $7 to $16 = about $1,400 to $3,200 for removal, disinfection and drying. Add the plumber: about $350 to $600 to jet the line, or $200 to $1,300 for a camera inspection.</p>
@@ -286,7 +413,7 @@ main p,main li{font-size:19px}
 <section class="section faq"><div class="container">
 <h2>Questions about water damage restoration cost</h2>
 <h3>How much does water damage restoration cost on average?</h3>
-<p>National 2026 cost guides put the average around $3,250, with most homes paying about $1,300 to $5,700. Large losses, sewage and floods can cost much more.</p>
+<p>2026 cost guides put the average around $3,250, with most homes paying about $1,300 to $5,700. Large losses, sewage and floods can cost much more.</p>
 <h3>How much does it cost to dry out a house after a leak?</h3>
 <p>Clean-water extraction and drying usually runs about $3 to $4 per square foot. Drying equipment for a whole job typically costs $800 to $3,000.</p>
 <h3>Why can't I get an exact price over the phone?</h3>
@@ -313,7 +440,7 @@ main p,main li{font-size:19px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

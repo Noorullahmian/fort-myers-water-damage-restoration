@@ -87,7 +87,19 @@ h1,h2,h3{text-wrap:pretty}
 
 /* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */
 main p,main li{font-size:19px}
-@media (max-width:620px){main p,main li{font-size:18px}}</style>
+@media (max-width:620px){main p,main li{font-size:18px}}
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:19.38px}
+@media (max-width:620px){main p,main li{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -157,7 +169,7 @@ main p,main li{font-size:19px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

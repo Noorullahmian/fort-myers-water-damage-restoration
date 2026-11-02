@@ -131,7 +131,141 @@ main p,main li{font-size:21px}
 .hero-call .btn-call{min-height:52px;padding:13px 30px;font-size:20px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .hero-call span{color:rgba(255,255,255,.9);font-size:15px}
 @media (max-width:620px){.hero-intro{font-size:18px}.hero-call .btn-call{min-height:50px;padding:12px 26px;font-size:19px}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:21.42px}
+@media (max-width:620px){main p,main li{font-size:20.4px}}
+.hero-intro{font-size:20.4px}
+@media (max-width:620px){.hero-intro{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Water Damaged Floors in Fort Myers Homes",
+      "serviceType": "Water Damaged Floors Fort Myers | Tile, LVP & Wood",
+      "provider": {
+        "@id": "https://fortmyerswaterdamagerestoration.us/#business"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "url": "https://fortmyerswaterdamagerestoration.us/floors/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can vinyl plank flooring be saved after water damage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sometimes. Click-together planks in good condition can often be lifted, set aside while the slab dries, and reinstalled. Glued-down planks or planks with damaged edges are usually replaced."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if water is under my tile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for dark grout lines that stay damp, tiles that sound hollow when tapped, or swollen baseboards. A moisture meter reading on the grout and slab confirms it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I pull up my flooring myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Photograph everything first, and check with your insurer if you plan to file a claim. Removing flooring yourself can also disturb older materials, such as asbestos in some old vinyl tile or mastic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to dry a concrete slab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on how long the water sat and what was covering it. A clean-water leak caught quickly may dry in a few days once the flooring is lifted. Long-standing water under vinyl plank can take longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I put new flooring down right after the leak is fixed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not until the slab reads dry. New flooring over a wet slab can trap moisture, grow mold and fail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my vinyl plank floor lifting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Water under the planks, high humidity, or a wet slab can push planks up at the seams. Find the water source first, then check the slab with a moisture meter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who dries water-damaged floors in Fort Myers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call 239-356-3708, answered 24/7, for floors in Fort Myers, Cape Coral, Lehigh Acres, Estero and Bonita Springs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my floor smell if water is still underneath?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes. A musty smell near the floor, especially near baseboards, usually means moisture trapped under the flooring or in the bottom of the walls."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -276,7 +410,7 @@ main p,main li{font-size:21px}
 
 <section class="section section-gray"><div class="container">
 <h2>How much does it cost to repair water-damaged floors?</h2>
-<p>These are national 2026 ranges.</p>
+<p>These are 2026 ranges.</p>
 <div class="table-wrap"><table>
 <tr><th>Work</th><th>Typical 2026 range</th></tr>
 <tr><td>Category 1 extraction and drying</td><td>$3 to $4 per sq ft</td></tr>
@@ -286,7 +420,7 @@ main p,main li{font-size:21px}
 <tr><td>Carpet replacement</td><td>$2 to $8 per sq ft</td></tr>
 <tr><td>Hardwood floor replacement</td><td>$10 to $15 per sq ft</td></tr>
 </table></div>
-<p>Flooring is often the biggest single cost of a water damage job, because flooring is usually continuous across several rooms and matching it can be difficult. These are national ranges, not a quote. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
+<p>Flooring is often the biggest single cost of a water damage job, because flooring is usually continuous across several rooms and matching it can be difficult. These are ranges, not a quote. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
 </div></section>
 
 <section class="section"><div class="container">
@@ -327,7 +461,7 @@ main p,main li{font-size:21px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

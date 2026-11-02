@@ -142,7 +142,136 @@ main p,main li{font-size:23px}
 .hero-call .btn-call{min-height:52px;padding:13px 30px;font-size:20px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .hero-call span{color:rgba(255,255,255,.9);font-size:15px}
 @media (max-width:620px){.hero-intro{font-size:18px}.hero-call .btn-call{min-height:50px;padding:12px 26px;font-size:19px}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:23.46px}
+@media (max-width:620px){main p,main li{font-size:22.44px}}
+.faq p{font-size:22.44px}
+@media (max-width:620px){.faq p{font-size:21.42px}}
+@media (max-width:620px){}
+.hero-intro{font-size:20.4px}
+@media (max-width:620px){.hero-intro{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Water Mitigation and Structural Drying in Fort Myers",
+      "serviceType": "Water Mitigation & Structural Drying in Fort Myers",
+      "provider": {
+        "@id": "https://fortmyerswaterdamagerestoration.us/#business"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "url": "https://fortmyerswaterdamagerestoration.us/drying/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you know the house is dry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wet materials are measured against dry materials of the same type in an unaffected part of the house. When they match, drying is finished. Touch and smell are not reliable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get mold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mold can start within 24 to 48 hours in humid conditions, which is why drying starts the same day. If mold has already grown, bring in a qualified Florida mold remediator to remove it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are there holes drilled behind my baseboards?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The small holes let dry air flow into the wall cavity, so the inside of the wall can dry without cutting out the drywall. They are covered when the baseboards go back on."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need professional drying if the leak was small?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the water stayed on a hard surface and was wiped up right away, probably not. If it reached under flooring, into walls or under cabinets, the hidden moisture usually needs commercial equipment and readings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I stay home during drying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually yes after a clean-water leak. Expect noise and warm air around the equipment. Rooms with sewage or floodwater should stay closed off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I open the windows to help it dry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not in Fort Myers. Humid outdoor air slows drying. Keep the house closed and the AC running unless the crew tells you otherwise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is professional drying available in Cape Coral, Lehigh Acres and Estero?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Structural drying covers Fort Myers, Cape Coral, Lehigh Acres, North Fort Myers, Fort Myers Beach, Estero and Bonita Springs. Call 239-356-3708 any hour to get started."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -302,7 +431,7 @@ main p,main li{font-size:23px}
 
 <section class="section section-gray"><div class="container">
 <h2>How much does structural drying cost?</h2>
-<p>Drying equipment for a whole job typically runs $800 to $3,000, plus $300 to $600 for 3 to 5 days of moisture monitoring, according to national 2026 cost guides.</p>
+<p>Drying equipment for a whole job typically runs $800 to $3,000, plus $300 to $600 for 3 to 5 days of moisture monitoring, according to 2026 cost guides.</p>
 <div class="table-wrap"><table>
 <tr><th>Item</th><th>Typical 2026 range</th></tr>
 <tr><td>Drying equipment, whole job</td><td>$800 to $3,000</td></tr>
@@ -311,7 +440,7 @@ main p,main li{font-size:23px}
 <tr><td>LGR dehumidifier, per day (example market)</td><td>$85 to $125</td></tr>
 <tr><td>Air mover, per day (example market)</td><td>$22 to $35</td></tr>
 </table></div>
-<p>These are national ranges, not a quote; your price is set after an inspection and should be in writing. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
+<p>These are ranges, not a quote; your price is set after an inspection and should be in writing. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
 </div></section>
 
 <section class="section"><div class="container">
@@ -353,7 +482,7 @@ main p,main li{font-size:23px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

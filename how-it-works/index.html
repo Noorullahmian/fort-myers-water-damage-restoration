@@ -99,7 +99,150 @@ main p,main li{font-size:19px}
 /* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */
 .page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}
 @media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:19.38px}
+@media (max-width:620px){main p,main li{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you really answer 24/7?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Call 239-356-3708 any hour, including nights, weekends and holidays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who will come to my home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A water damage technician who works in your area. We confirm the details and timing with you before anyone arrives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I get a price before work starts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You should get a written estimate before work beyond emergency water extraction begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I have to use you for repairs too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Rebuilding is your decision, and you choose who does it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you deal with my insurance company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You file and manage your claim. The photos, moisture readings and drying logs from the job are there to support it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the whole process take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most clean-water drying takes about 3 to 5 days. Repairs take longer and depend on materials and contractors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do before anyone arrives?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shut off the water, cut power to wet rooms, photograph everything and move belongings off the floor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be home during drying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Someone needs to give access for setup and daily checks. You don't have to be there all day while the equipment runs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I stay in my home during drying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually yes for clean-water jobs. Sewage, floodwater or large tear-outs may make some rooms unusable for a while."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if more damage is found during drying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The estimate should be updated in writing and explained, with photos and readings showing what was found."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the water category, square footage, materials and drying days. See the ranges in the water damage cost guide; your price comes in a written estimate."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -365,7 +508,7 @@ main p,main li{font-size:19px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

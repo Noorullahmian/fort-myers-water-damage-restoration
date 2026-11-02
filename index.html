@@ -198,7 +198,64 @@ main p,main li{font-size:21.4px}
 /* HERO-DARKEN 2026-11-02: hero zyada dark, photo phir bhi nazar aaye. */
 body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.90) 0%,rgba(19,42,57,.65) 55%,rgba(19,42,57,.50) 100%)}
 @media (max-width:620px){body.home .hero-overlay{background:rgba(19,42,57,.84)}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:21.83px}
+@media (max-width:620px){main p,main li{font-size:20.81px}}
+body.home .faq p{font-size:20.81px}
+@media (max-width:620px){body.home .faq p{font-size:19.79px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.94) 0%,rgba(19,42,57,.75) 55%,rgba(19,42,57,.62) 100%)}
+@media (max-width:620px){body.home .hero-overlay{background:rgba(19,42,57,.88)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/"
+    }
+  ]
+}
+</script>
 </head>
 <body class="home">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -260,7 +317,7 @@ body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.90) 0%,
 <h2>Emergency Water Damage Restoration in Fort Myers, Day or Night</h2>
 <p>Answered 24/7, including nights, weekends, holidays and the days after a storm.</p>
 <p>Water removal, structural drying, sewage cleanup and flood cleanup for homes, condos, rentals and businesses across Lee County.</p>
-<p>Written estimate before work beyond emergency water extraction, and honest national cost ranges on every page.</p>
+<p>Written estimate before work beyond emergency water extraction, and honest cost ranges on every page.</p>
 <p>No pressure to sign over your insurance. Your claim and your choice of contractor stay yours.</p>
 <p><a class="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span class="call-note">answered 24/7</span></p>
 </div></section>
@@ -331,7 +388,7 @@ body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.90) 0%,
 
 <section class="section home-cost"><div class="container">
 <h2>How much does water damage restoration cost in Fort Myers?</h2>
-<p>Most homes pay roughly $1,300 to $5,700, according to national 2026 cost guides. The price depends on the water category, how many square feet are wet, which materials are affected and how many days drying takes.</p>
+<p>Most homes pay roughly $1,300 to $5,700, according to 2026 cost guides. The price depends on the water category, how many square feet are wet, which materials are affected and how many days drying takes.</p>
 <div class="table-wrap cost-table"><table>
 <tr><th>Work</th><th>Typical 2026 range</th></tr>
 <tr><td>Emergency water extraction</td><td>$500 to $2,000</td></tr>
@@ -340,7 +397,7 @@ body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.90) 0%,
 <tr><td>Category 3 water (sewage, flood)</td><td>$7 to $7.50+ per sq ft</td></tr>
 <tr><td>Drywall removal and replacement</td><td>$1.50 to $3 per sq ft</td></tr>
 </table></div>
-<p>These are national ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. Read the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">Fort Myers water damage cost guide</a>.</p>
+<p>These are ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. Read the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">Fort Myers water damage cost guide</a>.</p>
 </div></section>
 
 <section class="section section-gray home-ins"><div class="container">
@@ -409,7 +466,7 @@ body.home .hero-overlay{background:linear-gradient(100deg,rgba(19,42,57,.90) 0%,
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

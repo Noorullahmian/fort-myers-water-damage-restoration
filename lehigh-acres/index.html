@@ -99,7 +99,134 @@ main p,main li{font-size:19px}
 /* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */
 .page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}
 @media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:19.38px}
+@media (max-width:620px){main p,main li{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is there 24-hour water damage help in Lehigh Acres?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Call 239-356-3708, answered 24/7, for water damage anywhere in Lehigh Acres, including nights and weekends."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My home is on a well. How do I shut the water off?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turn off the well pump at its breaker and close the main valve near the pressure tank. That stops the pump from pushing more water into a broken line."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Street flooding got into my garage. Is that covered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Water rising from outside is flood damage, covered by a flood policy rather than standard homeowners insurance. Photograph everything before cleanup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My AC closet floor is wet. What should I do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turn the AC off at the thermostat, soak up standing water, and check whether the drain pan is full. Then have the drain line cleared and the closet walls and floor checked for hidden moisture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does drying take in a Lehigh Acres home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most clean-water leaks dry in about 3 to 5 days. Floodwater, sewage and wet concrete under flooring take longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I rent my Lehigh Acres home. Who pays for water damage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The landlord usually handles the building and its repairs, and renters insurance usually covers your belongings. Tell your landlord right away and photograph everything."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you also cover Fort Myers, Cape Coral and Gateway?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Help is available across Lee County, including Fort Myers, Cape Coral, Gateway, North Fort Myers, Estero and Bonita Springs. See water damage restoration in Cape Coral and all service areas. Nearby local guides: North Fort Myers, Estero and Bonita Springs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My well pressure tank is leaking into the garage. What do I do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turn off the well pump at its breaker, close the valve near the tank and photograph the leak. Then have a well service company repair the tank, and have the garage walls and floor checked for moisture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Lehigh Acres flood during hurricanes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lehigh Acres is inland, so storm surge is far less of a risk than on the coast. Heavy rain from hurricanes and summer storms can still flood streets, yards and low-lying homes."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -254,7 +381,7 @@ main p,main li{font-size:19px}
 
 <section class="section section-gray"><div class="container">
 <h2>Water damage costs in Lehigh Acres</h2>
-<p>The same drivers set the price everywhere in Lee County: water category, square footage, materials and drying days. These are national 2026 ranges.</p>
+<p>The same drivers set the price everywhere in Lee County: water category, square footage, materials and drying days. These are 2026 ranges.</p>
 <div class="table-wrap"><table>
 <tr><th>Work</th><th>Typical 2026 range</th></tr>
 <tr><td>Emergency water extraction</td><td>$500 to $2,000</td></tr>
@@ -263,7 +390,7 @@ main p,main li{font-size:19px}
 <tr><td>Category 3 (sewage or floodwater)</td><td>$7 to $7.50+ per sq ft</td></tr>
 <tr><td>Drying equipment, whole job</td><td>$800 to $3,000</td></tr>
 </table></div>
-<p>These are national ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
+<p>These are ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
 </div></section>
 
 <section class="section"><div class="container">
@@ -319,7 +446,7 @@ main p,main li{font-size:19px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

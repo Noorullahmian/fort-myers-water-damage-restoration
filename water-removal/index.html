@@ -138,7 +138,136 @@ main p,main li{font-size:23px}
 .hero-call .btn-call{min-height:52px;padding:13px 30px;font-size:20px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .hero-call span{color:rgba(255,255,255,.9);font-size:15px}
 @media (max-width:620px){.hero-intro{font-size:18px}.hero-call .btn-call{min-height:50px;padding:12px 26px;font-size:19px}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:23.46px}
+@media (max-width:620px){main p,main li{font-size:22.44px}}
+.faq p{font-size:22.44px}
+@media (max-width:620px){.faq p{font-size:21.42px}}
+@media (max-width:620px){}
+.hero-intro{font-size:20.4px}
+@media (max-width:620px){.hero-intro{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Emergency Water Removal in Fort Myers",
+      "serviceType": "Emergency Water Removal Fort Myers | 24/7 Extraction",
+      "provider": {
+        "@id": "https://fortmyerswaterdamagerestoration.us/#business"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "url": "https://fortmyerswaterdamagerestoration.us/water-removal/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does water extraction take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Extraction for one or two rooms usually takes a few hours. Drying afterward takes days, and equipment stays until moisture readings are back to normal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I turn off the electricity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turn off power at the breaker to any room where water touches outlets, cords or appliances. If the breaker panel is in a wet area, don't touch it; wait for an electrician or the utility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my carpet be saved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carpet soaked by clean water and extracted quickly can often be dried in place, though the pad is usually replaced. Carpet touched by sewage or floodwater has to be removed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to leave the house?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not for a clean-water leak. Leave the affected rooms if the water is sewage or floodwater, or if a ceiling is sagging."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is water removal the same as water mitigation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Water removal is the first part. Mitigation is the whole job of stopping further damage: removing water, taking out what can't be saved, and drying the structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the main water shut-off in a Fort Myers home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually where the line enters the house, often in the garage near the water heater, on an outside wall, or at the meter box near the street, which may need a meter key."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there emergency water extraction near me in Cape Coral or Lehigh Acres?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Emergency water removal covers Fort Myers, Cape Coral, Lehigh Acres, North Fort Myers, Fort Myers Beach, Estero and Bonita Springs, and we answer 24/7 at 239-356-3708."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -197,7 +326,7 @@ main p,main li{font-size:23px}
 <h2>24/7 Emergency Water Removal in Fort Myers and Lee County</h2>
 <p>Get the water out within hours: clean water can turn into contaminated Category 2 water within 24 to 48 hours.</p>
 <p>Extraction removes standing water in hours; drying the structure takes another 3 to 5 days for most clean-water jobs.</p>
-<p>Emergency extraction typically costs $500 to $2,000 (national 2026 range).</p>
+<p>Emergency extraction typically costs $500 to $2,000 (2026 range).</p>
 </div></section>
 
 <section class="section"><div class="container">
@@ -301,7 +430,7 @@ main p,main li{font-size:23px}
 
 <section class="section section-gray"><div class="container">
 <h2>How much does emergency water removal cost?</h2>
-<p>Emergency extraction alone typically runs $500 to $2,000, and full mitigation (extraction plus drying) about $3 to $4 per square foot for clean water, according to national 2026 cost guides.</p>
+<p>Emergency extraction alone typically runs $500 to $2,000, and full mitigation (extraction plus drying) about $3 to $4 per square foot for clean water, according to 2026 cost guides.</p>
 <div class="table-wrap"><table>
 <tr><th>Work</th><th>Typical 2026 range</th></tr>
 <tr><td>Emergency water extraction</td><td>$500 to $2,000</td></tr>
@@ -309,7 +438,7 @@ main p,main li{font-size:23px}
 <tr><td>Category 2 extraction and drying</td><td>$4 to $6.50 per sq ft</td></tr>
 <tr><td>Drying equipment, whole job</td><td>$800 to $3,000</td></tr>
 </table></div>
-<p>These are national ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
+<p>These are ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
 </div></section>
 
 <section class="section"><div class="container">
@@ -343,7 +472,7 @@ main p,main li{font-size:23px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>

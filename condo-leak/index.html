@@ -121,7 +121,133 @@ main p,main li{font-size:21px}
 .hero-call .btn-call{min-height:52px;padding:13px 30px;font-size:20px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .hero-call span{color:rgba(255,255,255,.9);font-size:15px}
 @media (max-width:620px){.hero-intro{font-size:18px}.hero-call .btn-call{min-height:50px;padding:12px 26px;font-size:19px}}
+
+/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */
+main p,main li{font-size:21.42px}
+@media (max-width:620px){main p,main li{font-size:20.4px}}
+.hero-intro{font-size:20.4px}
+@media (max-width:620px){.hero-intro{font-size:18.36px}}
+
+/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */
+.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}
+@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}
+
+/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */
+main h2::after{content:"";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}
+.cta-panel h2::after{margin-left:auto;margin-right:auto}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://fortmyerswaterdamagerestoration.us/#business",
+      "name": "Fort Myers Water Damage Restoration",
+      "url": "https://fortmyerswaterdamagerestoration.us/",
+      "telephone": "+1-239-356-3708",
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fort Myers",
+        "addressRegion": "FL",
+        "postalCode": "33901"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Condo Water Damage in Fort Myers: Leaks From the Unit Above",
+      "serviceType": "Condo Water Damage Fort Myers | Leak From Unit Above",
+      "provider": {
+        "@id": "https://fortmyerswaterdamagerestoration.us/#business"
+      },
+      "areaServed": [
+        "Fort Myers, FL",
+        "Lee County, FL"
+      ],
+      "url": "https://fortmyerswaterdamagerestoration.us/condo-leak/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who pays for water damage from the condo above me in Florida?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the source. Damage from the building's structure or shared pipes is generally the association's; damage to your unit's finishes is generally yours under your HO-6 policy. If the owner above caused the leak, their insurer may be responsible for some costs. Your declaration and insurers decide the details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I call my insurance or the association first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call the unit above and building management first to stop the water. Then report the loss to your HO-6 insurer and start drying."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use my own restoration company in a condo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually yes for your unit's interior, but coordinate with the association, especially when it has sent its own vendor for common elements or several units."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My unit is below and the upstairs owner isn't home. What now?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call building management or the association. Many buildings can shut off a unit's water or the riser in an emergency. Keep documenting while you wait."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the association have to pay for my flooring and cabinets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no. Under Florida's condo law, floor coverings and built-in cabinets are usually the unit owner's to insure, unless your declaration says otherwise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does condo drying take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most clean-water condo leaks dry in about 3 to 5 days per unit with commercial equipment. Several units, sewage or wet concrete take longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there condo leak help in Estero, Bonita Springs and Fort Myers Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Condo water damage help covers Fort Myers, Estero, Bonita Springs, Fort Myers Beach, Cape Coral and the rest of Lee County. Call 239-356-3708, answered 24/7."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -266,7 +392,7 @@ main p,main li{font-size:21px}
 
 <section class="section"><div class="container">
 <h2>How much does condo leak damage cost to fix?</h2>
-<p>Condo jobs are priced the same way as other water damage, by water category and wet area, but costs are split between units and insurers. These are national 2026 ranges.</p>
+<p>Condo jobs are priced the same way as other water damage, by water category and wet area, but costs are split between units and insurers. These are 2026 ranges.</p>
 <div class="table-wrap"><table>
 <tr><th>Work</th><th>Typical 2026 range</th></tr>
 <tr><td>Category 1 extraction and drying (supply line, AC)</td><td>$3 to $4 per sq ft</td></tr>
@@ -275,7 +401,7 @@ main p,main li{font-size:21px}
 <tr><td>Drywall removal and replacement</td><td>$1.50 to $3 per sq ft</td></tr>
 <tr><td>Drying equipment, whole job (per unit)</td><td>$800 to $3,000</td></tr>
 </table></div>
-<p>These are national ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
+<p>These are ranges, not a quote. Your price is set after an inspection and should be in writing before work starts. See the full <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
 </div></section>
 
 <section class="section section-gray"><div class="container">
@@ -315,7 +441,7 @@ main p,main li{font-size:21px}
 </main>
 <footer class="footer"><div class="container footer-grid">
 <div><h3>Fort Myers Water Damage</h3><p>Water damage restoration across Lee County, Florida. Answered 24/7.</p><p><a href="tel:+12393563708">239-356-3708</a></p></div>
-<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL, Lee County</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
+<div><h3>Get in Touch</h3><ul><li>Fort Myers, FL 33901</li><li><a href="tel:+12393563708">239-356-3708</a></li><li>Available 24/7</li></ul></div>
 <div><h3>Explore</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/">Home</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/areas/">Service Areas</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/contact/">Contact</a></li></ul></div>
 <div><h3>Services</h3><ul><li><a href="https://fortmyerswaterdamagerestoration.us/water-removal/">Water Removal</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/drying/">Structural Drying</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/sewage-cleanup/">Sewage Cleanup</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/ac-leak/">AC Leak</a></li><li><a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">Flood Cleanup</a></li></ul></div>
 </div>
