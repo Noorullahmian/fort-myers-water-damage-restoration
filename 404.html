@@ -59,6 +59,9 @@ table tr:nth-child(even) td{background:#eef5fa}
 
 /* pretty-wrap 2026-11-02: orphan control on headings */
 h1,h2,h3{text-wrap:pretty}
+
+/* NAV-SERVICES-SCROLLER 2026-11-02: Services dropdown scrolls instead of running long */
+.nav-drop:not(.nav-drop--areas) .nav-panel{max-height:340px;overflow-y:auto;overscroll-behavior:contain}
 </style>
 </head>
 <body>
@@ -87,7 +90,6 @@ h1,h2,h3{text-wrap:pretty}
 </div>
 </div>
 <a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a>
-<a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a>
 <div class="nav-drop nav-drop--areas">
 <button class="nav-toggle" type="button" aria-expanded="false" aria-haspopup="true">Areas</button>
 <div class="nav-panel">

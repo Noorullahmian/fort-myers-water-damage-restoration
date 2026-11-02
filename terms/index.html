@@ -78,7 +78,16 @@ h2{font-size:28px}
 
 /* pretty-wrap 2026-11-02: orphan control on headings */
 h1,h2,h3{text-wrap:pretty}
-</style>
+
+/* NAV-SERVICES-SCROLLER 2026-11-02: Services dropdown scrolls instead of running long */
+.nav-drop:not(.nav-drop--areas) .nav-panel{max-height:340px;overflow-y:auto;overscroll-behavior:contain}
+
+/* LEGAL-BANNER-GRADIENT 2026-11-02: brand-blue gradient instead of flat black; no photo on legal pages. */
+.page-banner{background:linear-gradient(135deg,#0B5E8C,#132A39)}
+
+/* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */
+main p,main li{font-size:19px}
+@media (max-width:620px){main p,main li{font-size:18px}}</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -106,7 +115,6 @@ h1,h2,h3{text-wrap:pretty}
 </div>
 </div>
 <a href="https://fortmyerswaterdamagerestoration.us/cost/">Cost</a>
-<a href="https://fortmyerswaterdamagerestoration.us/insurance/">Insurance</a>
 <div class="nav-drop nav-drop--areas">
 <button class="nav-toggle" type="button" aria-expanded="false" aria-haspopup="true">Areas</button>
 <div class="nav-panel">
