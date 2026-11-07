@@ -51,7 +51,7 @@ export default function Page() {
 </ul>
 </div></section>
 
-<section className="section"><div className="container"><div className="contact-map"><p className="map-label">Map: Fort Myers, Lee County, Florida</p><iframe title="Map of Fort Myers and Lee County, Florida" src="https://www.openstreetmap.org/export/embed.html?bbox=-82.2000%2C26.3000%2C-81.6000%2C26.9000&layer=mapnik&marker=26.6406%2C-81.8723" width="100%" height="400" style={{border: 0}} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen></iframe></div></div></section>
+<section className="section"><div className="container"><div className="contact-map"><p className="map-label">Map: Fort Myers, Lee County, Florida</p><iframe title="Map of Fort Myers and Lee County, Florida" src="https://www.google.com/maps?q=Fort%20Myers%2C%20FL&z=11&output=embed" width="100%" height="400" style={{border: 0}} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen></iframe></div></div></section>
 
 <section className="section"><div className="container"><div className="img-strip"><img className="strip-img" src="../assets/fort-myers-emergency-water-removal-crew.jpg" alt="Crew operating a pump to remove water from a flooded basement" loading="lazy" width="1600" height="1065" decoding="async" /><img className="strip-img" src="../assets/fort-myers-structural-drying-air-movers.jpg" alt="Worker positioning a large industrial drying fan indoors" loading="lazy" width="600" height="359" decoding="async" /><img className="strip-img" src="../assets/fort-myers-damage-assessment-technician.jpg" alt="Technician in a hard hat inspecting a home exterior" loading="lazy" width="1125" height="750" decoding="async" /></div></div></section>
 
