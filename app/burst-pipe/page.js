@@ -14,13 +14,13 @@ export const metadata = {
     title: "Burst Pipe Water Damage Fort Myers | 24/7 Cleanup",
     description: "A pipe or supply line burst in your Fort Myers home? Shut-off steps, drying and repair, typical costs and what homeowners insurance usually covers.",
     url: "https://fortmyerswaterdamagerestoration.us/burst-pipe/",
-    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-burst-pipe-repair-work.jpg" }],
+    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-burst-pipe-copper-work-pexels-39885416-1400.jpg" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Burst Pipe Water Damage Fort Myers | 24/7 Cleanup",
     description: "A pipe or supply line burst in your Fort Myers home? Shut-off steps, drying and repair, typical costs and what homeowners insurance usually covers.",
-    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-burst-pipe-repair-work.jpg"],
+    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-burst-pipe-copper-work-pexels-39885416-1400.jpg"],
   },
   alternates: { canonical: "https://fortmyerswaterdamagerestoration.us/burst-pipe/" },
 };
@@ -33,7 +33,7 @@ export default function Page() {
       <Header current="burst-pipe" />
 
 <main id="main">
-<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-burst-pipe-repair-work.jpg" alt="Hands repairing metal pipes and valves" loading="eager" decoding="async" /><div className="container banner-inner">
+<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-burst-pipe-copper-work-pexels-39885416-1400.jpg" srcSet="../assets/fort-myers-burst-pipe-copper-work-pexels-39885416-800.jpg 800w, ../assets/fort-myers-burst-pipe-copper-work-pexels-39885416-1400.jpg 1400w" sizes="100vw" alt="A plumber working a copper pipe in a bench vise" width="1400" height="787" fetchpriority="high" decoding="async" /><div className="container banner-inner">
 <nav className="breadcrumb" aria-label="Breadcrumb"><a href="https://fortmyerswaterdamagerestoration.us/">Home</a> &raquo; Services &raquo; Burst Pipe Water Damage in Fort Myers</nav>
 <h1>Burst Pipe Water Damage in Fort Myers</h1>
 <p className="hero-intro">Water spraying under the sink, pouring from behind the toilet or soaking through a wall? Shut off the main water first. A burst supply line can dump hundreds of gallons in a few hours, and in a Fort Myers slab home that water runs under tile and into cabinets. Burst pipe cleanup means extracting it fast and drying before mold starts.</p>

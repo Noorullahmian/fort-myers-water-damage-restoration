@@ -14,13 +14,13 @@ export const metadata = {
     title: "How Our Fort Myers Water Damage Service Works",
     description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the visit, written estimates, drying and insurance paperwork.",
     url: "https://fortmyerswaterdamagerestoration.us/how-it-works/",
-    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-restoration-assessment-crew.jpg" }],
+    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "How Our Fort Myers Water Damage Service Works",
     description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the visit, written estimates, drying and insurance paperwork.",
-    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-restoration-assessment-crew.jpg"],
+    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg"],
   },
   alternates: { canonical: "https://fortmyerswaterdamagerestoration.us/how-it-works/" },
 };
@@ -33,7 +33,7 @@ export default function Page() {
       <Header current={null} />
 
 <main id="main">
-<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-restoration-assessment-crew.jpg" alt="Workers assessing a flood-damaged home interior" loading="eager" decoding="async" /><div className="container banner-inner">
+<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg" srcSet="../assets/fort-myers-how-it-works-inspection-pexels-8292785-800.jpg 800w, ../assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg 1400w" sizes="100vw" alt="Home inspector in a hard hat and high-visibility vest with a clipboard looking up at a ceiling" width="1400" height="787" fetchpriority="high" decoding="async" /><div className="container banner-inner">
 <h1>How Our Fort Myers Water Damage Service Works</h1>
 <nav className="breadcrumb" aria-label="Breadcrumb"><a href="https://fortmyerswaterdamagerestoration.us/">Home</a> &raquo; Services &raquo; How Our Fort Myers Water Damage Service Works</nav>
 </div></section>
