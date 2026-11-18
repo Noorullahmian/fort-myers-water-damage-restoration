@@ -2,8 +2,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: "How Our Fort Myers Water Damage Service Works",
-  description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the visit, written estimates, drying and insurance paperwork.",
+  title: "How Water Damage Help Works in Fort Myers | Step by Step",
+  description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the inspection, the written scope, drying and the paperwork you get.",
   icons: {
     icon: [{ url: "../assets/favicon-48.png", type: "image/png", sizes: "48x48" }],
     apple: [{ url: "../assets/apple-touch-icon.png", sizes: "180x180" }],
@@ -11,16 +11,16 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: "How Our Fort Myers Water Damage Service Works",
-    description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the visit, written estimates, drying and insurance paperwork.",
+    title: "How Water Damage Help Works in Fort Myers | Step by Step",
+    description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the inspection, the written scope, drying and the paperwork you get.",
     url: "https://fortmyerswaterdamagerestoration.us/how-it-works/",
-    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg" }],
+    images: [{ url: "https://fortmyerswaterdamagerestoration.us/assets/fort-myers-how-it-works-inspection-pexels-8293664-1400.jpg" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "How Our Fort Myers Water Damage Service Works",
-    description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the visit, written estimates, drying and insurance paperwork.",
-    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg"],
+    title: "How Water Damage Help Works in Fort Myers | Step by Step",
+    description: "What happens when you call 239-356-3708 for water damage in Fort Myers: the questions, the inspection, the written scope, drying and the paperwork you get.",
+    images: ["https://fortmyerswaterdamagerestoration.us/assets/fort-myers-how-it-works-inspection-pexels-8293664-1400.jpg"],
   },
   alternates: { canonical: "https://fortmyerswaterdamagerestoration.us/how-it-works/" },
 };
@@ -33,230 +33,35 @@ export default function Page() {
       <Header current={null} />
 
 <main id="main">
-<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg" srcSet="../assets/fort-myers-how-it-works-inspection-pexels-8292785-800.jpg 800w, ../assets/fort-myers-how-it-works-inspection-pexels-8292785-1400.jpg 1400w" sizes="100vw" alt="Home inspector in a hard hat and high-visibility vest with a clipboard looking up at a ceiling" width="1400" height="787" fetchpriority="high" decoding="async" /><div className="container banner-inner">
-<h1>How Our Fort Myers Water Damage Service Works</h1>
-<nav className="breadcrumb" aria-label="Breadcrumb"><a href="https://fortmyerswaterdamagerestoration.us/">Home</a> &raquo; Services &raquo; How Our Fort Myers Water Damage Service Works</nav>
-</div></section>
-
-<section className="section"><div className="container">
-
-<div>
-<p>Water on the floor and no idea what happens next? Most people have never dealt with water damage before, and the not-knowing is half the stress. Here's how our Fort Myers water damage service works, from the first call to the final dry reading. No surprises, no pressure.</p>
-<p><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
-</div>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>24/7 Water Damage Help in Fort Myers, From First Call to Dry</h2>
-<ul>
-<li>We answer 24/7, including nights, weekends and holidays.</li>
-<li>We confirm the details and timing with you before anyone arrives.</li>
-<li>Work beyond emergency water extraction starts only after you get a written estimate.</li>
-</ul>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>Step 1: You call</h2>
-<p>When you call 239-356-3708, you'll be asked a few quick questions:</p>
-<ul>
-<li>Your address and ZIP code</li>
-<li>What happened and when you found it</li>
-<li>Where the water came from: a supply line, appliance, AC, toilet, drain, roof or flooding</li>
-<li>Which rooms are wet, and roughly how big the wet area is</li>
-<li>Whether the water and power are off</li>
-<li>Whether you own or rent, and whether it's a condo</li>
-<li>Your insurance company, if you plan to file a claim</li>
-</ul>
-<p>The answers help decide what equipment is needed and what to do while you wait. If the water is still running, you'll be walked through shutting it off.</p>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>Step 2: While you wait</h2>
-<p>Before anyone arrives, you can protect your home and your claim:</p>
-<ul>
-<li>Shut off the water at the fixture or the main.</li>
-<li>Cut power at the breaker to wet rooms.</li>
-<li>Photograph and video everything before you move or throw anything away.</li>
-<li>Move belongings off wet floors.</li>
-<li>Keep the AC running to help pull moisture out of the air.</li>
-</ul>
-<p>The full list is on the <a href="https://fortmyerswaterdamagerestoration.us/first-hour-checklist/">first-hour water damage checklist</a>.</p>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>Step 3: The inspection</h2>
-<p>When the technician arrives, they should:</p>
-<ul>
-<li>Confirm the source is stopped, or tell you who needs to fix it, such as a plumber, roofer or HVAC technician.</li>
-<li>Identify the water category: clean water (Category 1), gray water (Category 2) or contaminated water such as sewage or floodwater (Category 3). This decides what can be dried and what has to be removed.</li>
-<li>Measure moisture in floors, walls, cabinets and ceilings with moisture meters and often a thermal camera.</li>
-<li>Map the wet area, which is usually bigger than what you can see.</li>
-<li>Explain what they found in plain language and show you the readings.</li>
-</ul>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>Step 4: A written estimate</h2>
-<p>You should get a written estimate before work beyond emergency water extraction begins. It should explain:</p>
-<ul>
-<li>What will be removed and why</li>
-<li>What equipment will be used and for about how long</li>
-<li>The expected cost, based on the square footage, water category, materials and drying days</li>
-<li>What isn't included, such as plumbing repairs or rebuilding</li>
-</ul>
-<p>If anything changes during drying, such as finding more water inside a wall, the estimate should be updated in writing and explained. See typical ranges in the <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>.</p>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>Step 5: Water removal</h2>
-<p>Standing water is pulled out with truck-mounted or portable extractors. Extraction removes far more water than drying ever could, which shortens drying time and limits damage. See <a href="https://fortmyerswaterdamagerestoration.us/water-removal/">emergency water removal</a>.</p>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>Step 6: Removing what can't be saved</h2>
-<p>Some materials can't be dried in place and are removed:</p>
-<ul>
-<li>Carpet pad soaked with water</li>
-<li>Baseboards that have swelled</li>
-<li>The lower part of drywall when it's soaked, contaminated or hiding water</li>
-<li>Wet insulation inside walls or ceilings</li>
-<li>Particle board cabinet bases and shelves that have swelled</li>
-<li>Vinyl plank or laminate that's trapping water against the slab</li>
-</ul>
-<p>Everything removed should be photographed and listed for your insurer.</p>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>Step 7: Drying</h2>
-<p>Commercial dehumidifiers and air movers are set up to dry the structure. Each day, moisture readings are taken and logged, and equipment is moved or adjusted as areas dry. Most clean-water jobs take about 3 to 5 days. Floodwater, sewage, concrete slabs and leaks that sat for a while can take longer. See how <a href="https://fortmyerswaterdamagerestoration.us/drying/">structural drying</a> works.</p>
-<p>During drying:</p>
-<ul>
-<li>Equipment runs around the clock and makes noise.</li>
-<li>Keep doors and windows closed unless told otherwise.</li>
-<li>Keep the AC running.</li>
-<li>Don't turn equipment off without asking.</li>
-</ul>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>Step 8: Final readings and paperwork</h2>
-<p>When readings show the materials are back to normal, drying is done. You should receive:</p>
-<ul>
-<li>Photos from before, during and after</li>
-<li>The moisture map and daily drying logs</li>
-<li>A list of materials removed</li>
-<li>A final invoice that matches the written estimate, or explains any changes</li>
-</ul>
-<p>These records are what your insurance adjuster will want to see.</p>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>Step 9: Repairs</h2>
-<p>After drying, the drywall, baseboards, flooring and cabinets are rebuilt. Rebuilding is your decision, and you choose who does it.</p>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>What you won't be asked to do</h2>
-<ul>
-<li>Sign over your insurance benefits. For Florida residential policies issued on or after January 1, 2023, post-loss assignment of benefits isn't allowed.</li>
-<li>Pay for work you didn't agree to in writing.</li>
-<li>Make a decision on the spot about rebuilding.</li>
-</ul>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>Insurance: how the paperwork fits</h2>
-<ul>
-<li>You file the claim with your insurer and deal with your adjuster.</li>
-<li>Photos, moisture readings and drying logs from the job support your claim.</li>
-<li>Your insurer may send an adjuster to inspect the damage.</li>
-<li>You're responsible for your deductible and anything not covered.</li>
-<li>Florida rules give you deadlines to report a claim.</li>
-</ul>
-<p>Read <a href="https://fortmyerswaterdamagerestoration.us/insurance/">how insurance handles water damage in Florida</a>.</p>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>Mold</h2>
-<p>If mold has already grown, mold remediation should be handled by a qualified Florida mold remediator. Fast drying is the most reliable way to prevent mold in the first place.</p>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>Where we help</h2>
-<p>We cover Fort Myers, <a href="https://fortmyerswaterdamagerestoration.us/cape-coral/">Cape Coral</a>, <a href="https://fortmyerswaterdamagerestoration.us/lehigh-acres/">Lehigh Acres</a>, North Fort Myers, Fort Myers Beach, Sanibel, Pine Island, Estero and Bonita Springs. See <a href="https://fortmyerswaterdamagerestoration.us/areas/">all service areas</a>.</p>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>What the water category means for your job</h2>
-<div className="table-wrap"><table><tbody>
-<tr><th>Category</th><th>Examples</th><th>What usually happens</th></tr>
-<tr><td>Category 1: clean water</td><td>Burst supply line, <a href="https://fortmyerswaterdamagerestoration.us/water-heater-leak/">water heater</a>, AC condensate caught early</td><td>Most materials can be dried in place if drying starts quickly</td></tr>
-<tr><td>Category 2: gray water</td><td>Washer or dishwasher drain water, toilet overflow without feces</td><td>Carpet pad and porous materials often removed; surfaces cleaned and treated</td></tr>
-<tr><td>Category 3: contaminated water</td><td>Sewage, floodwater, <a href="https://fortmyerswaterdamagerestoration.us/flood-cleanup/">storm surge</a></td><td>Porous materials removed; surfaces disinfected; protective gear used</td></tr>
-</tbody></table></div>
-<p>Water can get worse over time. A clean leak left for days can become Category 2, which is why starting the same day matters.</p>
-</div></section>
-
-<section className="section"><div className="container">
-<h2>What the drying equipment does</h2>
-<ul>
-<li>Air movers blow air across wet surfaces so moisture evaporates faster.</li>
-<li>Dehumidifiers pull that moisture out of the air so it doesn't soak back into walls and floors.</li>
-<li>Specialty equipment can push dry air into wall cavities, under cabinets and across concrete slabs.</li>
-<li>Moisture meters and thermal cameras track progress, so drying ends when the readings say it's dry, not when it looks dry.</li>
-</ul>
-</div></section>
-
-<section className="section section-gray"><div className="container">
-<h2>How long each stage usually takes</h2>
-<div className="table-wrap"><table><tbody>
-<tr><th>Stage</th><th>Typical time</th></tr>
-<tr><td>Call and questions</td><td>One short phone call</td></tr>
-<tr><td>Inspection and estimate</td><td>Usually done at the first visit</td></tr>
-<tr><td>Water extraction and removal</td><td>Usually the first day</td></tr>
-<tr><td>Drying</td><td>About 3 to 5 days for clean water; longer for slabs, floodwater and sewage</td></tr>
-<tr><td>Repairs</td><td>Depends on materials and contractors</td></tr>
-</tbody></table></div>
-</div></section>
-
-<section className="section faq"><div className="container">
-<h2>Questions about how it works</h2>
-<h3>Do you really answer 24/7?</h3>
-<p>Yes. Call 239-356-3708 any hour, including nights, weekends and holidays.</p>
-<h3>Who will come to my home?</h3>
-<p>A water damage technician who works in your area. We confirm the details and timing with you before anyone arrives.</p>
-<h3>Do I get a price before work starts?</h3>
-<p>Yes. You should get a written estimate before work beyond emergency water extraction begins.</p>
-<h3>Do I have to use you for repairs too?</h3>
-<p>No. Rebuilding is your decision, and you choose who does it.</p>
-<h3>Will you deal with my insurance company?</h3>
-<p>You file and manage your claim. The photos, moisture readings and drying logs from the job are there to support it.</p>
-<h3>How long does the whole process take?</h3>
-<p>Most clean-water drying takes about 3 to 5 days. Repairs take longer and depend on materials and contractors.</p>
-<h3>What should I do before anyone arrives?</h3>
-<p>Shut off the water, cut power to wet rooms, photograph everything and move belongings off the floor.</p>
-<h3>Do I need to be home during drying?</h3>
-<p>Someone needs to give access for setup and daily checks. You don't have to be there all day while the equipment runs.</p>
-<h3>Can I stay in my home during drying?</h3>
-<p>Usually yes for clean-water jobs. Sewage, floodwater or large tear-outs may make some rooms unusable for a while.</p>
-<h3>What if more damage is found during drying?</h3>
-<p>The estimate should be updated in writing and explained, with photos and readings showing what was found.</p>
-<h3>What does it cost?</h3>
-<p>It depends on the water category, square footage, materials and drying days. See the ranges in the <a href="https://fortmyerswaterdamagerestoration.us/cost/">water damage cost guide</a>; your price comes in a written estimate.</p>
-</div></section>
-
-<section className="section"><div className="container cta-panel">
-<h2>Water damage right now?</h2>
-<p>Stop the water, take photos and call. You'll know what happens at every step.</p>
-<p><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p>
-</div></section>
+<section className="page-banner"><img className="banner-img" src="../assets/fort-myers-how-it-works-inspection-pexels-8293664-1400.jpg" srcSet="../assets/fort-myers-how-it-works-inspection-pexels-8293664-800.jpg 800w, ../assets/fort-myers-how-it-works-inspection-pexels-8293664-1400.jpg 1400w" sizes="100vw" alt="Home inspector in a hard hat and high-visibility vest holding an inspection checklist in a house doorway" width="1400" height="933" fetchpriority="high" decoding="async" /><div className="container banner-inner"><nav className="breadcrumb" aria-label="Breadcrumb"><a href="https://fortmyerswaterdamagerestoration.us/">Home</a> &raquo; Services &raquo; How Water Damage Help Works in Fort Myers</nav><h1>How Water Damage Help Works in Fort Myers</h1><p className="hero-intro">Water on the floor and no idea what happens next? Most people have never dealt with water damage before, and not knowing is half the stress. Here is exactly how it works, from the first call to the final dry reading, so there are no surprises. Call 239-356-3708, answered 24/7.</p><p className="hero-call"><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p></div></section>
+<section className="section section-gray"><div className="container"><p>You call and describe the water, and get help making it safe while you wait. At the inspection, the wet area is measured and you get a written scope. Water is extracted, unsavable materials come out and the structure is dried with daily readings. You get the photos and logs, and you choose who repairs.</p></div></section>
+<section className="section"><div className="container"><h2>Step 1: You call</h2><p>When you call 239-356-3708, you'll be asked a few quick questions:</p><ul><li>Your address and ZIP code</li><li>What happened and when you found it</li><li>Where the water came from: a supply line, appliance, AC, toilet, drain, roof or flooding</li><li>Which rooms are wet and roughly how big the wet area is</li><li>Whether the water and power are off</li><li>Whether you own or rent, and whether it's a condo</li><li>Your insurance company, if you plan to file a claim</li></ul><p>If the water is still running, you'll be walked through shutting it off. Timing is confirmed with you before anyone heads out.</p></div></section>
+<section className="section section-gray"><div className="container"><h2>Step 2: While you wait</h2><ul><li>Shut off the water at the fixture or the main.</li><li>Cut power at the breaker to wet rooms.</li><li>Photograph and video everything before you move or throw anything away.</li><li>Move belongings off wet floors.</li><li>Keep the AC running to help pull moisture out of the air, unless it's the source or the water is sewage or floodwater.</li></ul><p>The full list: <a href="https://fortmyerswaterdamagerestoration.us/first-hour-checklist/">first-hour water damage checklist</a>.</p></div></section>
+<section className="section"><div className="container"><h2>Step 3: The inspection</h2><ul><li>The source is confirmed stopped, or you're told who needs to fix it: a plumber, roofer or HVAC technician.</li><li>The water category is identified: clean (Category 1), gray (Category 2) or contaminated such as sewage or floodwater (Category 3). This decides what can be dried and what has to be removed.</li><li>Moisture is measured in floors, walls, cabinets and ceilings with moisture meters and a thermal camera.</li><li>The wet area is mapped; it's usually bigger than what you can see.</li><li>Findings are explained in plain language, and you can see the readings.</li></ul></div></section>
+<section className="section section-gray"><div className="container"><h2>Step 4: The written scope</h2><p>Before work beyond emergency water removal, you get the scope in writing. It should explain:</p><ul><li>What will be removed and why</li><li>What equipment will be used and for about how long</li><li>The cost, based on square footage, water category, materials and drying days</li><li>What isn't included, such as plumbing repairs or rebuilding</li></ul><p>If more water is found during drying, such as inside a wall, the scope is updated in writing with photos and readings. For general background on what drives cost, see <a href="https://fortmyerswaterdamagerestoration.us/cost/">the water damage cost guide</a>.</p></div></section>
+<section className="section"><div className="container"><h2>Step 5: Water removal</h2><p>Standing water is pulled out with truck-mounted or portable extractors. Extraction removes far more water than drying ever could, which shortens drying and limits damage. See <a href="https://fortmyerswaterdamagerestoration.us/water-removal/">emergency water removal</a>.</p></div></section>
+<section className="section section-gray"><div className="container"><h2>Step 6: Removing what can't be saved</h2><ul><li>Carpet pad soaked with water</li><li>Baseboards that have swelled</li><li>The lower part of drywall when it's soaked, contaminated or hiding water</li><li>Wet insulation inside walls or ceilings</li><li>Particle board cabinet bases and shelves that have swelled</li><li>Vinyl plank or laminate trapping water against the slab</li></ul><p>Everything removed is photographed and listed for your records and your insurer.</p></div></section>
+<section className="section"><div className="container"><h2>Step 7: Drying</h2><p>Dehumidifiers and air movers are set up to dry the structure. Moisture readings are taken and logged, and equipment is moved as areas dry. Most clean-water jobs take about 3 to 5 days; floodwater, sewage, concrete slabs and long-running leaks take longer. See <a href="https://fortmyerswaterdamagerestoration.us/drying/">structural drying</a>.</p><p>During drying:</p><ul><li>Equipment runs around the clock and makes noise.</li><li>Keep doors and windows closed unless told otherwise.</li><li>Keep the AC running.</li><li>Don't turn equipment off without asking.</li></ul></div></section>
+<section className="section section-gray"><div className="container"><h2>Step 8: Final readings and paperwork</h2><p>When readings show materials are back to normal, drying is done. You receive:</p><ul><li>Photos from before, during and after</li><li>The moisture map and drying logs</li><li>A list of materials removed</li><li>A final invoice that matches the written scope, or explains any changes</li></ul><p>These are the records an insurance adjuster usually wants to see.</p></div></section>
+<section className="section"><div className="container"><h2>Step 9: Repairs</h2><p>After drying, drywall, baseboards, flooring and cabinets are rebuilt. Rebuilding is your decision, and you choose who does it.</p></div></section>
+<section className="section section-gray"><div className="container"><h2>What you won't be asked to do</h2><ul><li>Sign over your insurance benefits. For Florida residential policies issued on or after January 1, 2023, post-loss assignment of benefits isn't allowed.</li><li>Pay for work you didn't agree to in writing.</li><li>Decide on the spot about rebuilding.</li></ul></div></section>
+<section className="section"><div className="container"><h2>Mitigation, restoration, remediation: what do the words mean?</h2><p>You will hear these words from adjusters and contractors, and they often appear as separate parts of an estimate or a claim.</p><ul><li>Mitigation: the emergency work that stops the damage getting worse. Water removal, taking out what can't be saved, and drying.</li><li>Restoration: putting the home back. New drywall, baseboards, flooring, cabinets and paint once the structure is dry.</li><li>Remediation: removing a contaminant, usually mold or sewage, inside containment.</li><li>Moisture mapping: measuring and recording where the water went, wall by wall and room by room.</li><li>Dry standard: the reading that unaffected materials of the same kind show in your home. Drying is finished when the wet materials reach it.</li></ul><p>Insurers often handle mitigation and repairs as separate parts of the claim, so ask for separate paperwork for each.</p></div></section>
+<section className="section section-gray"><div className="container"><h2>What does the water category mean for my job?</h2><div className="table-wrap"><table><tbody><tr><th>Category</th><th>Examples</th><th>What usually happens</th></tr><tr><td>Category 1: clean water</td><td>Burst supply line, water heater, AC condensate caught early</td><td>Most materials can be dried in place if drying starts quickly</td></tr><tr><td>Category 2: gray water</td><td>Washer or dishwasher drain water, toilet overflow without waste</td><td>Carpet pad and porous materials often removed; surfaces cleaned and treated</td></tr><tr><td>Category 3: contaminated water</td><td>Sewage, floodwater, storm surge</td><td>Porous materials removed; surfaces disinfected; protective gear used</td></tr></tbody></table></div><p>A clean leak left for days can become Category 2, which is why starting the same day matters.</p></div></section>
+<section className="section"><div className="container"><h2>What does the drying equipment do?</h2><ul><li>Air movers blow air across wet surfaces so moisture evaporates faster.</li><li>Dehumidifiers pull that moisture out of the air so it doesn't soak back into walls and floors.</li><li>Specialty equipment can push dry air into wall cavities, under cabinets and across concrete slabs.</li><li>Moisture meters and thermal cameras track progress, so drying ends when readings say it's dry, not when it looks dry.</li></ul></div></section>
+<section className="section section-gray"><div className="container"><h2>How long does each stage take?</h2><div className="table-wrap"><table><tbody><tr><th>Stage</th><th>Typical time</th></tr><tr><td>Call and questions</td><td>One short phone call</td></tr><tr><td>Inspection and written scope</td><td>Usually at the first visit</td></tr><tr><td>Extraction and removal</td><td>Usually the first day</td></tr><tr><td>Drying</td><td>About 3 to 5 days for clean water; longer for slabs, floodwater and sewage</td></tr><tr><td>Repairs</td><td>Depends on materials and contractors</td></tr></tbody></table></div></div></section>
+<section className="section"><div className="container"><h2>Insurance: how the paperwork fits</h2><ul><li>You file the claim with your insurer and deal with your adjuster.</li><li>Photos, moisture readings and drying logs from the job support your claim.</li><li>You're responsible for your deductible and anything not covered.</li></ul><p>Read <a href="https://fortmyerswaterdamagerestoration.us/insurance/">how insurance handles water damage in Florida</a>.</p></div></section>
+<section className="section section-gray"><div className="container"><h2>Mold</h2><p>If mold has already grown, it should be removed by a qualified Florida mold remediation company. Fast drying is the most reliable way to prevent mold in the first place.</p></div></section>
+<section className="section"><div className="container faq"><h2>Questions about how it works</h2><h3>Is the line really answered 24/7?</h3><p>Yes. Call 239-356-3708 any hour, including nights, weekends and holidays.</p><h3>Who will come to my home?</h3><p>A water damage technician who works in your area. Details and timing are confirmed with you before anyone arrives.</p><h3>Do I get the price before work starts?</h3><p>Yes. You get a written scope before work beyond emergency water removal begins.</p><h3>Do I have to use the same company for repairs?</h3><p>No. Rebuilding is your decision, and you choose who does it.</p><h3>Will you deal with my insurance company?</h3><p>You file and manage your claim. The photos, moisture readings and drying logs from the job are there to support it.</p><h3>How long does the whole process take?</h3><p>Most clean-water drying takes about 3 to 5 days. Repairs take longer and depend on materials and contractors.</p><h3>Do I need to be home during drying?</h3><p>Someone needs to give access for setup and readings. You don't have to be there all day while equipment runs.</p><h3>Can I stay in my home during drying?</h3><p>Usually yes for clean-water jobs. Sewage, floodwater or large tear-outs may make some rooms unusable for a while.</p><h3>What if more damage is found during drying?</h3><p>The scope is updated in writing and explained, with photos and readings showing what was found.</p><h3>Which areas do you cover?</h3><p>Fort Myers, <a href="https://fortmyerswaterdamagerestoration.us/cape-coral/">Cape Coral</a>, <a href="https://fortmyerswaterdamagerestoration.us/lehigh-acres/">Lehigh Acres</a>, <a href="https://fortmyerswaterdamagerestoration.us/north-fort-myers/">North Fort Myers</a>, <a href="https://fortmyerswaterdamagerestoration.us/fort-myers-beach/">Fort Myers Beach</a>, <a href="https://fortmyerswaterdamagerestoration.us/estero/">Estero</a> and <a href="https://fortmyerswaterdamagerestoration.us/bonita-springs/">Bonita Springs</a>. See <a href="https://fortmyerswaterdamagerestoration.us/areas/">all service areas</a>.</p></div></section>
+<section className="section section-gray"><div className="container"><h2>Sources and further reading</h2><ul><li>IICRC S500, the industry standard for water damage restoration (water categories, drying classes and dry standards)</li><li><a href="https://www.epa.gov/mold" target="_blank" rel="noopener">EPA, mold and moisture in the home</a></li></ul></div></section>
+<section className="section"><div className="container"><h2>Related guides</h2><ul><li>First-hour water damage checklist</li><li>Emergency water removal</li><li>Structural drying</li><li><a href="https://fortmyerswaterdamagerestoration.us/">Water damage restoration in Fort Myers</a></li></ul></div></section>
+<section className="section"><div className="container cta-panel"><h2>Water damage right now?</h2><p>Stop the water, take photos and call. You'll know what happens at every step.</p><p><a className="btn btn-call" href="tel:+12393563708">Call 239-356-3708</a> <span>answered 24/7</span></p></div></section>
 </main>
 
       <Footer creditHtml={null} />
       <a className="call-bar" href="tel:+12393563708">Call 239-356-3708</a>
-      <style dangerouslySetInnerHTML={{ __html: "\n.page-banner{background:#15181d;color:#fff;padding:56px 0}\n.banner-inner{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}\n.page-banner h1{color:#fff;font-size:44px;line-height:1.15;margin:0;font-weight:800;letter-spacing:-.02em}\n.breadcrumb{color:#d6d9de;font-weight:700;white-space:normal;line-height:1.5}\n.breadcrumb a{color:#1b9bd7;text-decoration:none}\n@media (max-width:620px){.page-banner{padding:40px 0}.page-banner h1{font-size:36px;line-height:1.18}.table-wrap table{font-size:15px}.table-wrap th,.table-wrap td{padding:10px 8px}}\n@media (max-width:380px){.page-banner h1{font-size:32px}.table-wrap table{font-size:14px}.table-wrap th,.table-wrap td{padding:8px 6px}}\n\n/* Inner-page header dropdowns (page-scoped; mirrors homepage pattern). */\n.nav-drop{position:relative}\n.nav-toggle{background:none;border:0;padding:0;font:inherit;font-size:16px;font-weight:700;color:#15181d;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:44px}\n.nav-toggle:hover{color:#c8102e}\n.nav-toggle::after{content:\"\";border:5px solid transparent;border-top:6px solid currentColor;margin-top:3px;flex-shrink:0}\n.nav-panel{display:none}\n.nav-panel a{display:block;color:#15181d;text-decoration:none;font-weight:700;font-size:16px;padding:11px 14px;border-radius:8px;white-space:nowrap}\n.nav-panel a:hover{background:#f5f6f8;color:#c8102e}\n.nav-panel .nav-current{display:block;padding:11px 14px;font-weight:800;color:#c8102e;border-radius:8px;white-space:nowrap}\n@media (min-width:1021px){\n.nav-drop{padding:14px 0}\n.nav-panel{position:absolute;top:100%;left:0;min-width:264px;background:#fff;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.14);padding:10px;z-index:60;flex-direction:column}\n.nav-drop--areas .nav-panel{left:auto;right:0}\n.nav-drop:hover .nav-panel,.nav-drop:focus-within .nav-panel,.nav-drop.open .nav-panel{display:flex}\n.main-nav a,.nav-toggle{white-space:nowrap}\n}\n@media (max-width:1020px){\n.nav-drop{width:100%}\n.nav-toggle{width:100%;justify-content:space-between}\n.nav-drop.open .nav-panel{display:flex;position:static;box-shadow:none;padding:4px 0 4px 16px;flex-direction:column}\n.nav-panel a{white-space:normal;padding:10px 14px}\n.main-nav.open>a{padding:9px 0;line-height:27.2px}\n.nav-panel .nav-current{white-space:normal}\n}\n/* Inner-page blue table colouring (page-scoped; mirrors homepage tables). */\ntable th{background:#0b5e8c;color:#fff}\ntable td{border-top:1px solid #d8e2ec}\ntable tr:nth-child(even) td{background:#eef5fa}\n.skip-link{position:absolute;left:-9999px;top:0;z-index:9999;background:#0B5E8C;color:#fff;padding:12px 18px;font-weight:700;text-decoration:none}.skip-link:focus{left:12px;top:12px}\n\n/* TEXT-BUMP 2026-11-02: body copy +~5% (~+1px), headings gentle only, page-scoped. Nav/buttons/footer/header untouched. */\nmain{font-size:18px}\n.page-banner h1{font-size:46px}\nh2{font-size:38px}\nh3{font-size:23px}\n.card h3{font-size:21px}\n@media (max-width:620px){\nmain{font-size:17px}\n.page-banner h1{font-size:38px}\nh2{font-size:30px}\n.table-wrap table{font-size:16px}\n}\n@media (max-width:380px){\n.page-banner h1{font-size:34px}\nh2{font-size:28px}\n.table-wrap table{font-size:15px}\n}\n\n/* pretty-wrap 2026-11-02: orphan control on headings */\nh1,h2,h3{text-wrap:pretty}\n\n/* NAV-SERVICES-SCROLLER 2026-11-02: Services dropdown scrolls instead of running long */\n.nav-drop:not(.nav-drop--areas) .nav-panel{max-height:340px;overflow-y:auto;overscroll-behavior:contain}\n\n/* HERO-BANNER 2026-11-02: unique hero photo + gradient scrim, replaces flat black banner. */\n.page-banner{position:relative;overflow:hidden;min-height:420px;display:flex;align-items:flex-end}\n.page-banner>.container{width:100%}\n.banner-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}\n.page-banner::after{content:\"\";position:absolute;inset:0;background:linear-gradient(100deg,rgba(19,42,57,.88) 0%,rgba(19,42,57,.55) 55%,rgba(19,42,57,.25) 100%);z-index:1}\n.page-banner .banner-inner{position:relative;z-index:2}\n.page-banner h1{text-shadow:0 2px 14px rgba(0,0,0,.5)}\n.page-banner .breadcrumb{text-shadow:0 1px 8px rgba(0,0,0,.6)}\n@media (max-width:620px){.page-banner{min-height:300px}.page-banner::after{background:rgba(19,42,57,.72)}}\n\n/* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */\nmain p,main li{font-size:19px}\n@media (max-width:620px){main p,main li{font-size:18px}}\n/* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}\n\n/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */\nmain p,main li{font-size:19.38px}\n@media (max-width:620px){main p,main li{font-size:18.36px}}\n\n/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}\n\n/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */\nmain h2::after{content:\"\";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}\n.cta-panel h2::after{margin-left:auto;margin-right:auto}\n" }} />
+      <style dangerouslySetInnerHTML={{ __html: "\n.page-banner{background:#15181d;color:#fff;padding:56px 0}\n.banner-inner{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}\n.page-banner h1{color:#fff;font-size:44px;line-height:1.15;margin:0;font-weight:800;letter-spacing:-.02em}\n.breadcrumb{color:#d6d9de;font-weight:700;white-space:normal;line-height:1.5}\n.breadcrumb a{color:#1b9bd7;text-decoration:none}\n@media (max-width:620px){.page-banner{padding:40px 0}.page-banner h1{font-size:36px;line-height:1.18}.table-wrap table{font-size:15px}.table-wrap th,.table-wrap td{padding:10px 8px}}\n@media (max-width:380px){.page-banner h1{font-size:32px}.table-wrap table{font-size:14px}.table-wrap th,.table-wrap td{padding:8px 6px}}\n\n/* Inner-page header dropdowns (page-scoped; mirrors homepage pattern). */\n.nav-drop{position:relative}\n.nav-toggle{background:none;border:0;padding:0;font:inherit;font-size:16px;font-weight:700;color:#15181d;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:44px}\n.nav-toggle:hover{color:#c8102e}\n.nav-toggle::after{content:\"\";border:5px solid transparent;border-top:6px solid currentColor;margin-top:3px;flex-shrink:0}\n.nav-panel{display:none}\n.nav-panel a{display:block;color:#15181d;text-decoration:none;font-weight:700;font-size:16px;padding:11px 14px;border-radius:8px;white-space:nowrap}\n.nav-panel a:hover{background:#f5f6f8;color:#c8102e}\n.nav-panel .nav-current{display:block;padding:11px 14px;font-weight:800;color:#c8102e;border-radius:8px;white-space:nowrap}\n@media (min-width:1021px){\n.nav-drop{padding:14px 0}\n.nav-panel{position:absolute;top:100%;left:0;min-width:264px;background:#fff;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.14);padding:10px;z-index:60;flex-direction:column}\n.nav-drop--areas .nav-panel{left:auto;right:0}\n.nav-drop:hover .nav-panel,.nav-drop:focus-within .nav-panel,.nav-drop.open .nav-panel{display:flex}\n.main-nav a,.nav-toggle{white-space:nowrap}\n}\n@media (max-width:1020px){\n.nav-drop{width:100%}\n.nav-toggle{width:100%;justify-content:space-between}\n.nav-drop.open .nav-panel{display:flex;position:static;box-shadow:none;padding:4px 0 4px 16px;flex-direction:column}\n.nav-panel a{white-space:normal;padding:10px 14px}\n.main-nav.open>a{padding:9px 0;line-height:27.2px}\n.nav-panel .nav-current{white-space:normal}\n}\n/* Inner-page blue table colouring (page-scoped; mirrors homepage tables). */\ntable th{background:#0b5e8c;color:#fff}\ntable td{border-top:1px solid #d8e2ec}\ntable tr:nth-child(even) td{background:#eef5fa}\n.skip-link{position:absolute;left:-9999px;top:0;z-index:9999;background:#0B5E8C;color:#fff;padding:12px 18px;font-weight:700;text-decoration:none}.skip-link:focus{left:12px;top:12px}\n\n/* TEXT-BUMP 2026-11-02: body copy +~5% (~+1px), headings gentle only, page-scoped. Nav/buttons/footer/header untouched. */\nmain{font-size:18px}\n.page-banner h1{font-size:46px}\nh2{font-size:38px}\nh3{font-size:23px}\n.card h3{font-size:21px}\n@media (max-width:620px){\nmain{font-size:17px}\n.page-banner h1{font-size:38px}\nh2{font-size:30px}\n.table-wrap table{font-size:16px}\n}\n@media (max-width:380px){\n.page-banner h1{font-size:34px}\nh2{font-size:28px}\n.table-wrap table{font-size:15px}\n}\n\n/* pretty-wrap 2026-11-02: orphan control on headings */\nh1,h2,h3{text-wrap:pretty}\n\n/* NAV-SERVICES-SCROLLER 2026-11-02: Services dropdown scrolls instead of running long */\n.nav-drop:not(.nav-drop--areas) .nav-panel{max-height:340px;overflow-y:auto;overscroll-behavior:contain}\n\n/* HERO-BANNER 2026-11-02: unique hero photo + gradient scrim, replaces flat black banner. */\n.page-banner{position:relative;overflow:hidden;min-height:420px;display:flex;align-items:flex-end}\n.page-banner>.container{width:100%}\n.banner-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}\n.page-banner::after{content:\"\";position:absolute;inset:0;background:linear-gradient(100deg,rgba(19,42,57,.88) 0%,rgba(19,42,57,.55) 55%,rgba(19,42,57,.25) 100%);z-index:1}\n.page-banner .banner-inner{position:relative;z-index:2}\n.page-banner h1{text-shadow:0 2px 14px rgba(0,0,0,.5)}\n.page-banner .breadcrumb{text-shadow:0 1px 8px rgba(0,0,0,.6)}\n@media (max-width:620px){.page-banner{min-height:300px}.page-banner::after{background:rgba(19,42,57,.72)}}\n\n/* TEXT-BUMP-1PX 2026-11-02: body text +1px (tables and headings unchanged). */\nmain p,main li{font-size:19px}\n@media (max-width:620px){main p,main li{font-size:18px}}\n/* HERO-DARKEN 2026-11-02: heroes zyada dark, photo phir bhi nazar aaye. */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.95) 0%,rgba(19,42,57,.78) 55%,rgba(19,42,57,.60) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.88)}}\n\n/* TEXT-BUMP-2PCT 2026-11-02: content text +2% (headings + tables untouched). */\nmain p,main li{font-size:19.38px}\n@media (max-width:620px){main p,main li{font-size:18.36px}}\n\n/* HERO-DARKEN-2 2026-11-02: hero thora aur dark (final round). */\n.page-banner::after{background:linear-gradient(100deg,rgba(19,42,57,.97) 0%,rgba(19,42,57,.85) 55%,rgba(19,42,57,.70) 100%)}\n@media (max-width:620px){.page-banner::after{background:rgba(19,42,57,.92)}}\n\n/* H2-ACCENT-BAR 2026-11-02: crimson accent bar under H2s; H2 text colour + size unchanged. */\nmain h2::after{content:\"\";display:block;width:56px;height:4px;background:#C8102E;border-radius:2px;margin-top:12px}\n.cta-panel h2::after{margin-left:auto;margin-right:auto}\n\n\n/* HERO-CONVERSION 2026-11-02: breadcrumb, H1, intro, CTA \u2014 isi order me hero ke andar. */\n.page-banner .banner-inner{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;flex-wrap:nowrap}\n.page-banner .breadcrumb{margin:0 0 14px;font-size:15px;color:rgba(255,255,255,.82)}\n.page-banner .breadcrumb a{color:rgba(255,255,255,.88)}\n.page-banner h1{margin:0 0 16px}\n.hero-intro{color:#fff;font-size:20px;line-height:1.6;max-width:780px;margin:0 0 22px;text-shadow:0 1px 10px rgba(0,0,0,.55)}\n.hero-intro a{color:#fff;text-decoration:underline;text-underline-offset:3px}\n.hero-call{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:0}\n.hero-call .btn-call{min-height:52px;padding:13px 30px;font-size:20px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35)}\n.hero-call span{color:rgba(255,255,255,.9);font-size:15px}\n@media (max-width:620px){.hero-intro{font-size:18px}.hero-call .btn-call{min-height:50px;padding:12px 26px;font-size:19px}}\n\n\n/* TEXT-20 2026-11-18: body/prose 20px overall except headings (page-scoped). */\nmain p,main li,table th,table td,.faq p,.hero-intro{font-size:20px}\n\n/* ROUND2-FIX 2026-11-18 P1-9/P1-10: mobile hero compaction so the hero CTA sits above the fixed call-bar on first paint at 390x844 (page-scoped, mobile only; no content words changed, prose stays 20px). */\n@media (max-width:620px){.page-banner{padding:12px 0 10px}.page-banner .breadcrumb{font-size:13px;margin:0 0 6px}.page-banner h1{font-size:28px;line-height:1.18;margin:0 0 6px}.hero-intro{font-size:20px;line-height:1.2;margin:0 0 6px}}\n" }} />
       <script dangerouslySetInnerHTML={{ __html: "\n(function(){var toggles=document.querySelectorAll('.nav-toggle');if(!toggles.length)return;function closeAll(except){document.querySelectorAll('.nav-drop.open').forEach(function(d){if(d!==except){d.classList.remove('open');var b=d.querySelector('.nav-toggle');if(b)b.setAttribute('aria-expanded','false');}});}toggles.forEach(function(btn){btn.addEventListener('click',function(){var drop=btn.closest('.nav-drop');var isOpen=drop.classList.contains('open');closeAll(drop);if(!isOpen){drop.classList.add('open');btn.setAttribute('aria-expanded','true');}else{drop.classList.remove('open');btn.setAttribute('aria-expanded','false');}});});document.addEventListener('click',function(ev){if(!ev.target.closest('.nav-drop'))closeAll(null);});document.addEventListener('keydown',function(ev){if(ev.key==='Escape')closeAll(null);});var menuBtn=document.querySelector('.menu-btn');var nav=document.getElementById('nav');if(menuBtn&&nav){menuBtn.addEventListener('click',function(){if(!nav.classList.contains('open'))closeAll(null);});}})();\n" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"LocalBusiness\",\n      \"@id\": \"https://fortmyerswaterdamagerestoration.us/#business\",\n      \"name\": \"Fort Myers Water Damage Restoration\",\n      \"url\": \"https://fortmyerswaterdamagerestoration.us/\",\n      \"telephone\": \"+1-239-356-3708\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Fort Myers\",\n        \"addressRegion\": \"FL\",\n        \"postalCode\": \"33901\"\n      },\n      \"areaServed\": [\n        \"Fort Myers, FL\",\n        \"Lee County, FL\"\n      ],\n      \"openingHoursSpecification\": {\n        \"@type\": \"OpeningHoursSpecification\",\n        \"dayOfWeek\": [\n          \"Monday\",\n          \"Tuesday\",\n          \"Wednesday\",\n          \"Thursday\",\n          \"Friday\",\n          \"Saturday\",\n          \"Sunday\"\n        ],\n        \"opens\": \"00:00\",\n        \"closes\": \"23:59\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do you really answer 24/7?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Call 239-356-3708 any hour, including nights, weekends and holidays.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Who will come to my home?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"A water damage technician who works in your area. We confirm the details and timing with you before anyone arrives.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do I get a price before work starts?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. You should get a written estimate before work beyond emergency water extraction begins.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do I have to use you for repairs too?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"No. Rebuilding is your decision, and you choose who does it.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Will you deal with my insurance company?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"You file and manage your claim. The photos, moisture readings and drying logs from the job are there to support it.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How long does the whole process take?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most clean-water drying takes about 3 to 5 days. Repairs take longer and depend on materials and contractors.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What should I do before anyone arrives?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Shut off the water, cut power to wet rooms, photograph everything and move belongings off the floor.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do I need to be home during drying?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Someone needs to give access for setup and daily checks. You don't have to be there all day while the equipment runs.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I stay in my home during drying?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Usually yes for clean-water jobs. Sewage, floodwater or large tear-outs may make some rooms unusable for a while.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What if more damage is found during drying?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The estimate should be updated in writing and explained, with photos and readings showing what was found.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What does it cost?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"It depends on the water category, square footage, materials and drying days. See the ranges in the water damage cost guide; your price comes in a written estimate.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"LocalBusiness\",\n      \"@id\": \"https://fortmyerswaterdamagerestoration.us/#business\",\n      \"name\": \"Fort Myers Water Damage Restoration\",\n      \"url\": \"https://fortmyerswaterdamagerestoration.us/\",\n      \"telephone\": \"+1-239-356-3708\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Fort Myers\",\n        \"addressRegion\": \"FL\",\n        \"postalCode\": \"33901\"\n      },\n      \"areaServed\": [\n        \"Fort Myers, FL\",\n        \"Lee County, FL\"\n      ],\n      \"openingHoursSpecification\": {\n        \"@type\": \"OpeningHoursSpecification\",\n        \"dayOfWeek\": [\n          \"Monday\",\n          \"Tuesday\",\n          \"Wednesday\",\n          \"Thursday\",\n          \"Friday\",\n          \"Saturday\",\n          \"Sunday\"\n        ],\n        \"opens\": \"00:00\",\n        \"closes\": \"23:59\"\n      }\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://fortmyerswaterdamagerestoration.us/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Services\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"How Water Damage Help Works in Fort Myers\",\n          \"item\": \"https://fortmyerswaterdamagerestoration.us/how-it-works/\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is the line really answered 24/7?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Call 239-356-3708 any hour, including nights, weekends and holidays.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Who will come to my home?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"A water damage technician who works in your area. Details and timing are confirmed with you before anyone arrives.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do I get the price before work starts?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. You get a written scope before work beyond emergency water removal begins.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do I have to use the same company for repairs?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"No. Rebuilding is your decision, and you choose who does it.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Will you deal with my insurance company?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"You file and manage your claim. The photos, moisture readings and drying logs from the job are there to support it.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How long does the whole process take?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most clean-water drying takes about 3 to 5 days. Repairs take longer and depend on materials and contractors.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do I need to be home during drying?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Someone needs to give access for setup and readings. You don't have to be there all day while equipment runs.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I stay in my home during drying?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Usually yes for clean-water jobs. Sewage, floodwater or large tear-outs may make some rooms unusable for a while.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What if more damage is found during drying?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The scope is updated in writing and explained, with photos and readings showing what was found.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which areas do you cover?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Fort Myers, Cape Coral, Lehigh Acres, North Fort Myers, Fort Myers Beach, Estero and Bonita Springs. See all service areas.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n" }} />
 
     </>
   );

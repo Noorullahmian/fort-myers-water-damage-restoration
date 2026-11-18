@@ -90,6 +90,9 @@ h2{font-size:28px}
 .split img,.band-img{height:260px}
 .brand{font-size:18px}
 .brand span{font-size:11px}
+/* ROUND2-FIX 2026-11-18 P2-8/P2-9: mobile tap targets to 44px (no visual change: brand fits inside the 80px header, related rows are thumb-driven at 64px). */
+.brand{display:inline-flex;flex-direction:column;justify-content:center;min-height:44px}
+.rel-list a{display:inline-flex;align-items:center;min-height:44px}
 .utility .container{justify-content:center;gap:14px;font-size:13px}
 .utility .util-247{display:none}
 .utility .container a:first-child{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;background:#c8102e;color:#fff;border-radius:8px;font-size:15px;font-weight:800;box-shadow:0 4px 14px rgba(0,0,0,.25)}
